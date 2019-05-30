@@ -1,0 +1,26 @@
+body {
+    background: aqua; /*背景颜色为蓝色*/
+    margin: 0px; /*去掉默认margin*/
+}
+h{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+p {
+    margin: 35vh 20%;
+    font-size: 30%;
+    text-align: center;
+    border: 20em;
+}
+.椭圆_1 {
+     border-radius: 50%;
+     background-color: rgb(0, 158, 150);
+     position: absolute;
+     left: 139px;
+     top: 803px;
+     width: 84px;
+     height: 84px;
+     z-index: 32;
+ }
