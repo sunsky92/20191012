@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f4546d-f368-47ec-989e-ab214dadd489" name="默认的" comment="1">
+    <list default="true" id="a5f4546d-f368-47ec-989e-ab214dadd489" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mojing/mojing.css" beforeDir="false" afterPath="$PROJECT_DIR$/mojing/mojing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mojing/mojing.html" beforeDir="false" afterPath="$PROJECT_DIR$/mojing/mojing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mojing/图层 0.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="570">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mojing/mojing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="527">
+              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -60,32 +59,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
-    <option name="y" value="8" />
+    <option name="x" value="699" />
+    <option name="y" value="9" />
     <option name="width" value="1185" />
-    <option name="height" value="1001" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -102,6 +85,22 @@
               <item name="jiugongge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Administrator\WebstormProjects\jiugongge" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="mojing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +156,8 @@
       <workItem from="1559221481903" duration="9575000" />
       <workItem from="1559299878662" duration="4400000" />
       <workItem from="1559305338558" duration="8944000" />
-      <workItem from="1559356876598" duration="3515000" />
+      <workItem from="1559356876598" duration="7124000" />
+      <workItem from="1559364566515" duration="5506000" />
     </task>
     <task id="LOCAL-00001" summary="去掉body默认margin 精简代码">
       <created>1559038332384</created>
@@ -285,17 +285,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559357610932</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1">
+      <created>1559360468553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559360468553</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61587000" />
+    <option name="totallyTimeSpent" value="70702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="8" width="1185" height="1001" extended-state="0" />
+    <frame x="699" y="9" width="1185" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20139495" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20139495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -316,6 +323,28 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20139495" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="运行" order="11" />
+      <window_info anchor="bottom" id="消息" order="12" weight="0.30653805" />
+      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -337,17 +366,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mojing/mojing.css">
+    <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="570">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
+    <entry file="file://$PROJECT_DIR$/mojing/mojing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="527">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
         </state>
       </provider>
     </entry>
