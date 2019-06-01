@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a5f4546d-f368-47ec-989e-ab214dadd489" name="默认的" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mojing/mojing.css" beforeDir="false" afterPath="$PROJECT_DIR$/mojing/mojing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mojing/mojing.html" beforeDir="false" afterPath="$PROJECT_DIR$/mojing/mojing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mojing/图层 0.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,23 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jiugongge/jiugongge.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mojing/mojing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="665">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -44,6 +43,7 @@
       <list>
         <option value="HTML4 File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,12 +55,13 @@
       <list>
         <option value="$PROJECT_DIR$/jiugongge/jiugongge.html" />
         <option value="$PROJECT_DIR$/mojing/mojing.html" />
+        <option value="$PROJECT_DIR$/mojing/mojing.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="685" />
-    <option name="y" value="48" />
+    <option name="x" value="810" />
+    <option name="y" value="8" />
     <option name="width" value="1185" />
     <option name="height" value="1001" />
   </component>
@@ -69,6 +70,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
+              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -90,28 +107,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiugongge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-              <item name="jiugongge" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,6 +153,11 @@
       <workItem from="1559045818646" duration="545000" />
       <workItem from="1559048037314" duration="8507000" />
       <workItem from="1559124754642" duration="15654000" />
+      <workItem from="1559142980341" duration="963000" />
+      <workItem from="1559221481903" duration="9575000" />
+      <workItem from="1559299878662" duration="4400000" />
+      <workItem from="1559305338558" duration="8944000" />
+      <workItem from="1559356876598" duration="3515000" />
     </task>
     <task id="LOCAL-00001" summary="去掉body默认margin 精简代码">
       <created>1559038332384</created>
@@ -236,14 +243,56 @@
       <option name="project" value="LOCAL" />
       <updated>1559142129921</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1">
+      <created>1559143151218</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559143151218</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1559231765734</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559231765735</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1559231783205</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559231783205</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1">
+      <created>1559231819693</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559231819693</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1559313533415</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559313533415</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1559357610932</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559357610932</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34190000" />
+    <option name="totallyTimeSpent" value="61587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="48" width="1185" height="1001" extended-state="0" />
+    <frame x="810" y="8" width="1185" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20139495" />
@@ -261,7 +310,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="运行" order="11" />
-      <window_info anchor="bottom" id="消息" order="12" weight="0.32949308" />
+      <window_info anchor="bottom" id="消息" order="12" weight="0.30653805" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,26 +324,30 @@
     <MESSAGE value="去掉body默认margin 精简代码" />
     <MESSAGE value="魔镜页面1.0" />
     <MESSAGE value="九宫格1.2" />
-    <MESSAGE value="1" />
     <MESSAGE value="2019.5.29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019.5.29" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jiugongge.html" />
-    <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
+    <entry file="file://$PROJECT_DIR$/jiugongge/jiugongge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="703">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiugongge/jiugongge.html">
+    <entry file="file://$PROJECT_DIR$/mojing/mojing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mojing/mojing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
