@@ -29,7 +29,7 @@ p{
 }
 
 h1.maegin-top{
-    margin-top:3em;           /*设定上外边距为3em*/
+    margin-top:40px;           /*设定上外边距为3em*/
 }
 
 p.center {
@@ -42,4 +42,9 @@ p.center {
 
 h1.heightp img{
     height: 35px;            /*设定logo高度为35px*/
+}
+
+p3.heightp img{
+    height: 25px;
+    padding: 10px;
 }
