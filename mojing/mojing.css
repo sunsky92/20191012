@@ -4,23 +4,23 @@ body {
 
 .p1{
     float:left;               /*设定向右浮动*/
-    margin-left: 20%;         /*设定右外边距为宽度20%*/
+    margin-left: 60px;         /*设定右外边距为宽度20%*/
 }
 
 .p2{
     float: right;             /*向左浮动*/
-    margin-right: 20%;        /*设置左边距为宽度20%*/
+    margin-right: 60px;        /*设置左外边距为宽度20%*/
 }
 
 p{
     letter-spacing:0.5px;     /*设定字体间距为0.5px*/
-    padding:5em;              /*设定上内边距为5em 实现保持在不同分辨率下高度不变的功能*/
-    line-height: 1.807;       /*设置行间距为1.807*/
+    padding:60px;              /*设定内边距为60px 实现保持在不同分辨率下高度不变的功能*/
+    /*line-height: 1.807;       !*设置行间距为1.807*!*/
 }
 
 .Typeface{
     color: rgb(255, 255, 255);/*设置字体颜色*/
-    font-size: 0.2em;         /*设定字体大小为0.2em*/
+    font-size: 12px;         /*设定字体大小为0.2em*/
 }
 
 .center{
@@ -33,7 +33,7 @@ h1.maegin-top{
 }
 
 p.center {
-    margin: 0%;              /*设定外边距为0%*/
+    margin: auto;              /*设定外边距为0%*/
 }
 
 .heightp img{
