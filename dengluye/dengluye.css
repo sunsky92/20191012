@@ -1,0 +1,66 @@
+body{
+    margin: 0px;/*去除默认边距*/
+}
+
+.background{
+    background-image: url("矩形4.png") ;
+}
+
+.heightp img{
+    height: 50px;/*设置默认高度为50px*/
+    width: 100%; /*设置内容宽度为页面宽度的100% 实现背景图片自动拉伸*/
+}
+p.heightp{
+    height: 50px;/*设置默认高度为50px*/
+}
+
+.maegin {
+    margin: 3px 0;/*设置默认上外边距为4px*/
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 50px;
+    border:none;/*隐藏表单边框*/
+}
+.maegin-b{
+    background-color: rgb(95, 192, 205);
+}
+
+.maegin_h{
+    margin-top: 15px;/*设置上外边距为15px*/
+    position: absolute;/*设置绝对定位*/
+    color: rgb(255, 255, 255);/*设置字体颜色*/
+    font-size: 15px;         /*设定字体大小为15spx*/
+}
+.h_1{
+    left: 10px;/*设置距离右边10px*/
+}
+.h_2{
+    left: 50%;/*设置距离右边50%*/
+    margin-left: -16px;/*距离右边50%减去自身一半宽度 实现绝对居中*/
+}
+.h_3{
+    right: 10px;/*设置距离左边10px*/
+}
+
+.center{
+    text-align: center;/*设置绝对居中*/
+}
+
+.矩形_4 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1px;
+    top: 144px;
+    width: 720px;
+    height: 100px;
+    z-index: 14;
+}
+.矩形_6 {
+    background-color: rgb(95, 192, 205);
+    position: absolute;
+    left: -1px;
+    top: 427px;
+    width: 723px;
+    height: 100px;
+    z-index: 24;
+}
