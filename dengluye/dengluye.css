@@ -21,7 +21,8 @@ p.heightp{
 .maegin-b{
     background-color: rgb(95, 192, 205); /*设置背景颜色*/
     color: aliceblue;                    /*设置字体颜色为白色s*/
-    font-size: 15px;                     /*设定字体大小为15spx*/s
+    font-size: 15px;                     /*设定字体大小为15spx*/
+    padding-left: 0px;                   /*取消登录按钮的左内边距 使字体居中*/
 }
 
 .maegin_h{;
