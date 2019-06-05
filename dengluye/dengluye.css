@@ -6,9 +6,6 @@ body{
     height: 50px;           /*设置默认高度为50px*/
     width: 100%;            /*设置内容宽度为页面宽度的100% 实现背景图片自动拉伸*/
 }
-p.heightp{
-    height: 50px;           /*设置默认高度为50px*/
-}
 
 .maegin {
     margin: 3px 0;                        /*设置默认上外边距为4px*/
@@ -16,7 +13,7 @@ p.heightp{
     width:100%;                           /*设置宽度100%自适应屏幕宽度*/
     height: 50px;                         /*设置高度为50px*/
     border:none;                          /*隐藏表单边框*/
-    padding-left: 50px;                   /*设置表单左内边距为50px 使输入框左移*/
+    padding-left: 70px;                   /*设置表单左内边距为50px 使输入框左移*/
 }
 .maegin-b{
     background-color: rgb(95, 192, 205); /*设置背景颜色*/
@@ -35,11 +32,11 @@ p.heightp{
     left: 10px;               /*设置距离右边10px*/
 }
 .h_2{
-    left: 50%;               /*设置距离右边50%*/
+    left: 50%;                /*设置距离右边50%*/
     margin-left: -16px;       /*距离右边50%减去自身一半宽度 实现绝对居中*/
 }
 .h_3{
-    right: 10px;/*设置距离左边10px*/
+    right: 10px;              /*设置距离左边10px*/
 }
 
 .h_4{
@@ -57,12 +54,24 @@ p.heightp{
 }
 
 .img1{
-    background-image: url("iphone.png");/*插入手机图标*/
+    background-image: url("iphone.png");/*input插入手机图标*/
     background-position:10px;           /*设置图片在input内的位置*/
 }
 
 .img2{
-    background-image: url("locked.png");
+    background-image: url("locked.png");/*input内插入锁图标*/
     background-position:10px;           /*设置图片在input内的位置*/
 }
 
+.div{
+    position: absolute;                 /*设置绝对定位*/
+    top: 68px;                          /*距离上边68px*/
+    left: 50px;                         /*距离右边50px*/
+    background: rgb(225, 229, 231);     /*设置采取来的颜色*/
+    width: 1px;                         /*宽度设置为1px*/
+    height: 30px;                       /*高度设置为30px*/
+}
+
+div1.div{
+    top: 125px;                         /*设置距离上边125px*/
+}
