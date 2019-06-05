@@ -1,0 +1,37 @@
+body{
+    margin: 0px;            /*去除页面默认边距*/
+}
+
+.background{
+    background-color: rgb(95, 192, 205);/*设置header颜色*/
+    position: absolute;                 /*设置绝对定位*/
+    width: 100%;                        /*设置宽度100%自适应*/
+    height: 50px;                       /*设置高度为50px*/
+}
+footer.background{
+    background-color: white;            /*设置颜色为白色*/
+    bottom: 0px;                        /*设置距离下边距离为0px*/
+}
+
+.h_1{
+    margin-top: 12px;                   /*设置上外边距为15px*/
+    position: absolute;                 /*设置绝对定位*/
+    color: rgb(255, 255, 255);          /*设置字体颜色*/
+    font-size: 18px;                    /*设定字体大小为18spx*/
+    left: 10px;
+}
+h2.h_1{
+    left: 50%;                          /*设置距离右边50%*/
+    margin-left: -28px;                 /*距离右边50%减去自身一半宽度 实现绝对居中*/
+    font-size: 14px;                    /*设定字体大小为14px*/
+    margin-top: 14px;                   /*设置上外边距为14px*/
+}
+
+.f1{
+    position: absolute;                 /*设置绝对定位*/
+    width: 50%;                         /*设置按钮占据屏幕宽度各50%*/
+    height: 100%;                       /*设置高度占据footer的100%*/
+}
+.f2{
+    right: 0px;                         /*设置按钮距离右边0%靠右*/
+}
