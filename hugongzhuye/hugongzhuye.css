@@ -27,11 +27,29 @@ h2.h_1{
     margin-top: 14px;                   /*设置上外边距为14px*/
 }
 
+.box{
+    display:flex;                       /*设置footer为flex布局*/
+    flex-direction: row;                /*设置footer主轴为水平从左向右*/
+    justify-content: space-between;     /*设置项目在主轴上的对齐方式为水平从左向右*/
+}
+p.box{
+    z-index: -1;
+    flex-direction: column;             /*设置p为flex布局 主轴从上往下垂直布局*/
+    justify-content: ;
+}
 .f1{
-    position: absolute;                 /*设置绝对定位*/
-    width: 50%;                         /*设置按钮占据屏幕宽度各50%*/
-    height: 100%;                       /*设置高度占据footer的100%*/
+    flex-grow:1;                        /*设置项目的放大值为1 自动填满主轴空间*/
+    width: 100%;                        /*设置两个项目宽度为100%* 实现对称平分主轴空间*/
+    margin: 4px;                        /*设置内边距为4px*/
+    background-color: white;            /*为按钮设置背景颜色*/
+    outline: medium;                    /*去掉聚焦按钮时的选中框*/
+    border:2px solid rgb(95, 192, 205); /*设置边框宽度1px 并设为实体线 消除阴影*/
+    border-radius:        5px;
+    -moz-border-radius:    5px;
+    -webkit-border-radius: 5px;         /*设置div元素圆角边框半径占比4% 适配webkit内核和旧的Mozilla Firefox内核的浏览器*/
+    color: rgb(95,192,203);             /*设置字体颜色*/
 }
 .f2{
-    right: 0px;                         /*设置按钮距离右边0%靠右*/
+    background-color: rgb(95,192,205);  /*设置按钮背景颜色*/
+    color: white;                       /*设置字体颜色*/
 }
