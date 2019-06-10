@@ -30,34 +30,27 @@ h2.h_1{
 .box{
     display:flex;                       /*设置footer为flex布局*/
     flex-direction: row;                /*设置footer主轴为水平从左向右*/
-    justify-content: space-between;     /*设置项目在主轴上的对齐方式为水平从左向右*/
 }
 p.box{
     margin: 0px;                        /*设置外边距为0px 消除默认边距16px*/
     padding: 50px 0px;                  /*设置上下内边距为50px 只在中间区域显示*/
     overflow-y: auto;                   /*设置滚动条Y轴内容溢出时的显示方式*/
     width: 100%;                        /*设置宽度为100%*/
-    flex-direction: column;             /*设置p为flex布局 主轴从上往下垂直布局*/
-    justify-content:space-between;      /*设定两端对齐*/
 }
-.pp{
-    width: 100%;                        /*设置宽度为屏幕的100%*/
+.box1{
+    flex-direction: column;             /*设置为flex布局 主轴从上往下垂直布局*/
 }
-.p1{
-    background-image: url("p1.png");    /*设置p1背景图片*/
-    height:30%;
+.inline-block{
+    font-size: 0px;
+    display:inline-block;
 }
-
-.p44{
-    color: darkgrey;
+.aaaa{
+    font-size: 15px;                     /*设定字体大小为15spx*/
 }
 
-
-
-
-
-
-
+.vertical-align{
+    vertical-align: center;
+}
 
 .f1{
     flex-grow:1;                        /*设置项目的放大值为1 自动填满主轴空间*/
@@ -76,3 +69,6 @@ p.box{
     color: white;                       /*设置字体颜色*/
 }
 
+.backgeround1{
+    background-image: url("p1.png");
+}
