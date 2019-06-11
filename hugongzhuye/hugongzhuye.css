@@ -1,7 +1,6 @@
 body{
     margin: 0px;            /*去除页面默认边距*/
 }
-
 .background{
     background-color: rgb(95, 192, 205);/*设置header颜色*/
     position: fixed;                    /*设置相对浏览器窗口定位*/
@@ -26,7 +25,6 @@ h2.h_1{
     font-size: 14px;                    /*设定字体大小为14px*/
     margin-top: 14px;                   /*设置上外边距为14px*/
 }
-
 .box{
     display:flex;                       /*设置footer为flex布局*/
     flex-direction: row;                /*设置footer主轴为水平从左向右*/
@@ -40,7 +38,6 @@ p.box{
 .box1{
     flex-direction: column;             /*设置为flex布局 主轴从上往下垂直布局*/
 }
-
 .a{
     height: 150px;                      /*设置高度为150px*/
 }
@@ -50,9 +47,12 @@ p.box{
 .c{
     padding-left: 10px;
 }
+.color{
+    color: darkgrey;                    /*设置字体为灰色*/
+}
 
 .aaaa{
-    font-size: 15px;                    /*设定字体大小为15spx*/
+    font-size: 12px;                    /*设定字体大小为12spx*/
     display: inline-flex;               /*设置display属性为inline-flex排列*/
 }
 
@@ -66,31 +66,46 @@ p.box{
     margin: 4px;                        /*设置内边距为4px*/
     background-color: white;            /*为按钮设置背景颜色*/
     outline: medium;                    /*去掉聚焦按钮时的选中框*/
-    border:2px solid rgb(95, 192, 205); /*设置边框宽度1px 并设为实体线 消除阴影*/
+    border:2px solid rgb(95, 192, 205); /*设置边框宽度2px 并设为实体线 消除阴影 设置蓝颜色*/
     border-radius:        5px;
     -moz-border-radius:    5px;
     -webkit-border-radius: 5px;         /*设置div元素圆角边框半径占比4% 适配webkit内核和旧的Mozilla Firefox内核的浏览器*/
     color: rgb(95,192,203);             /*设置字体颜色*/
 }
+
 .f2{
     background-color: rgb(95,192,205);  /*设置按钮背景颜色*/
     color: white;                       /*设置字体颜色*/
 }
 
 .backgeround1{
-    background-image: url("p1.png");
+    background-image: url("p1.png");    /*插入背景图片*/
+    -moz-background-size:63px 100px;    /*老版本的 Firefox */
+    background-size:105% auto;          /*设置背景宽度占满屏幕宽度 高度自适应*/
+    background-repeat:no-repeat;        /*设置背景图片不重复*/
 }
 .img_height{
-    height: 100px;
+    height: 80px;                      /*设置头像图片高度*/
 }
 .img_height1{
-    height: 14px;
+    height: 14px;                       /*设置定位图标高度*/
 }
 .maegin{
-    margin:10px;
-    color: white;
+    margin:35px 0px 35px 20px;          /*设置外边距*/
+    color: white;                       /*设置字体为白色*/
 }
 
 .w{
-    white-space:nowrap;                     /*禁止文字自动换行*/
+    white-space:nowrap;                  /*禁止文字自动换行*/
+}
+
+.border-bottom{
+    border-bottom:1px solid;             /*设置下边框宽度1px 并设为实体线 消除阴影*/
+    border-bottom-color: darkgrey;       /*设置下边框颜色为灰色*/
+}
+.margin0{
+    margin: 0px 10px 0px 10px;           /*设置上下外边距为10px*/
+}
+.paba{
+    font-size: 18px;                     /*设置字体大小为18px*/
 }
