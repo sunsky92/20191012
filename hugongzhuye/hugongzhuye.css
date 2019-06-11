@@ -40,16 +40,24 @@ p.box{
 .box1{
     flex-direction: column;             /*设置为flex布局 主轴从上往下垂直布局*/
 }
-.inline-block{
-    font-size: 0px;
-    display:inline-block;
+
+.a{
+    height: 150px;                      /*设置高度为150px*/
 }
-.aaaa{
-    font-size: 15px;                     /*设定字体大小为15spx*/
+.b{
+    padding: 15px;                      /*设置外边距为15px*/
+}
+.c{
+    padding-left: 10px;
 }
 
-.vertical-align{
-    vertical-align: center;
+.aaaa{
+    font-size: 15px;                    /*设定字体大小为15spx*/
+    display: inline-flex;               /*设置display属性为inline-flex排列*/
+}
+
+.align-items{
+    align-items: center;                /*行列项目中垂直居中排列*/
 }
 
 .f1{
@@ -71,4 +79,18 @@ p.box{
 
 .backgeround1{
     background-image: url("p1.png");
+}
+.img_height{
+    height: 100px;
+}
+.img_height1{
+    height: 14px;
+}
+.maegin{
+    margin:10px;
+    color: white;
+}
+
+.w{
+    white-space:nowrap;                     /*禁止文字自动换行*/
 }
