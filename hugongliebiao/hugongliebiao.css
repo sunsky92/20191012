@@ -12,6 +12,7 @@ body{
 footer.h{
     bottom: 0px;                         /*设置footer紧贴窗口下边*/
     background-color: rgb(248, 250, 251);/*设置footer颜色为*/
+    height: 60px;                       /*设置footer的高度为60px*/
 }
 p.h{
     background-color: white;             /*设置列表头颜色为白色*/
@@ -25,9 +26,9 @@ p.h{
     margin:0px;                          /*消除产生的默认边距*/
 }
 
-.center{
-    left: 50%;                           /*设置距离左边50% 水平居中*/
-    margin-left: -67.5px;                /*设置左内边距为-67.5px 纠正自身宽度带来的偏差*/
+.button {
+    float: left;
+    border: 1px solid green
 }
 
 .map{
@@ -39,12 +40,33 @@ p.h{
 .select{
     height: 100%;                        /*设置高度为列表头的100%*/
     width: 33.3%;                        /*设置宽度为屏幕宽度的33.3%*/
-
 }
 
-
-
-
+.h2{
+    margin-top: 20px;                   /*设置上外边距为20px*/
+    height: 100%;                       /*设置按钮高为footer的100%*/
+    /*margin: 0px;                        !*设置margin为0px 消除默认边距*!*/
+    background: url("home.png") no-repeat center top;
+                                        /*插入背景图片 并设置水平居中*/
+    background-size: 20px;              /*设置图片大小为40px*/
+    font-size: 10px;                    /*设置字体大小为20px*/
+    border:solid rgb(248, 250, 251);    /*设置边框为实体线消除阴影 并设置颜色与footer同色*/
+    flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
+}
+.h3 {
+    margin: 0px;                        /*设置默认边距为0px*/
+    width: 60px;                        /*设置宽度为60ps*/
+    background: url("task5.jpg") no-repeat center top;
+                                        /*插入背景图片 并设置水平居中 */
+    background-size: 50px;              /*设置图片大小为74px*/
+    flex-grow: 1;                        /*设置显示放大比例来排列三个按钮*/
+}
+.h4{
+    background: url("man.png")   no-repeat center top;
+                                        /*插入背景图片 并设置水平居中*/
+    background-size: 20px;
+    flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
+}
 
 
 
