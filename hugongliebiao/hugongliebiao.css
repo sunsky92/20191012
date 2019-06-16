@@ -26,11 +26,6 @@ p.h{
     margin:0px;                          /*消除产生的默认边距*/
 }
 
-.button {
-    float: left;
-    border: 1px solid green
-}
-
 .map{
     position: fixed;                     /*设置定位方式*/
     right: 10px;                         /*设置紧贴窗口右边*/
@@ -69,6 +64,39 @@ p.h{
 }
 
 
+
+.s{
+    position: relative;                 /*设置相对容器定位*/
+}
+.s input{
+    display: none;                      /*设置按钮不会被显示*/
+}
+.s1{
+    width: 100px;                       /*设置宽度为100px*/
+    height: 40px;                       /*设置高度为40px*/
+    background: grey;                   /*设置背景颜色*/
+    display: block;                     /*设置此元素为块级元素*/
+    overflow: hidden;                   /*设置内容会被修剪 隐藏其余内容 提供一种滚动方式(横向滚动)*/
+    cursor: pointer;                    /*设置光标停留在开关上的形状（手）*/
+    transition: 0.4s;                   /*设置开关按钮的过渡效果时间长短为0.4s*/
+    border-radius: 20px;
+}
+.s1:before {                             /*使用伪元素在选定的元素上添加样式*/
+    contain:;                        /*配合before伪元素来生产插入内容*/
+    position: absolute;                 /*设置绝对定位*/
+    width: 32px;                        /*设置滑块宽为32px*/
+    height: 32px;                       /*设置滑块高为32px*/
+    left: 4px;                          /*设置距离容器内右边4px*/
+    bottom: 4px;                        /*设置距离容器内底部4px*/
+    background: white;                  /*设置滑块为白色*/
+    border-radius: 50%;
+}
+.s input:checked + .s2{
+    background: red;
+}
+.s input:checked + .s1:before{          /*相邻兄弟选择器 伪类元素添加样式*/
+    left: 64px;
+}
 
 
 
