@@ -90,6 +90,7 @@ span1 {
 }
 .position {
     position: relative;
+    z-index: -1;
 }
 .pp {
     display: inline-flex;               /*设置display属性为inline-flex排列*/
