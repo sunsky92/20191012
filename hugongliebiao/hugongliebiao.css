@@ -1,6 +1,5 @@
 body {
     margin: 0px;                    /*去除页面默认边距*/
-    font-size:62.5%;
 }
 .h {
     position: fixed;                    /*设置header为相对浏览器窗口定位*/
@@ -28,7 +27,6 @@ p.h {
     overflow-y: hidden;                   /*设置滚动条Y轴内容溢出时的显示方式*/
     z-index: -1;                          /*设置显示层级为-1*/
 }
-
 .map {
     position: fixed;                     /*设置定位方式*/
     right: 10px;                         /*设置紧贴窗口右边*/
@@ -38,6 +36,8 @@ p.h {
 .select {
     height: 100%;                        /*设置高度为列表头的100%*/
     width: 33.3%;                        /*设置宽度为屏幕宽度的33.3%*/
+    color: darkgrey;                     /*设置文字颜色*/
+    border:1px solid silver;           /*设置列表头边框*/
 }
 
 .h2 {
@@ -65,48 +65,55 @@ p.h {
     flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
 }
 p1 {
-    height: 80px;                       /*设置单个列表高度为80px*/
+    height: 60px;                       /*设置单个列表高度为80px*/
     width: 100%;                        /*设置列表宽度为屏幕宽度的100%*/
-    border-bottom: 1px solid rgb();     /*每一行列表下边框宽度1px 实体线 颜色*/
-    margin: 20px 0 20px 0;
+    border-bottom: 1px solid silver;     /*每一行列表下边框宽度1px 实体线 颜色*/
+    padding: 20px 0 20px 0;              /*设置上下内边距*/
 }
 span1 {
-    display: flex;
+    display: flex;                      /*设置为弹性布局*/
     flex-direction: column;             /*设置为flex布局 主轴从上往下垂直布局*/
-    width: 220px;
-    height: 30px;
-    background-image: url(列表页.png);
-    background-repeat: no-repeat;
+    width: 140px;                       /*设置选取宽度*/
+    height: 20px;                       /*设置选取高度*/
+    background-image: url(列表页.png);  /*选定雪碧图*/
+    background-repeat: no-repeat;       /*设定图片不重复*/
+    background-size: 400px;             /*设定X轴为400px等比例缩小*/
 }
 .icon1 {
-    background-position: -20px 0;
-    left: 0px
-    top: 0px;
+    background-position: -10px 0;       /*设置选图坐标*/
 }
 .icon2 {
-    background-position: -20px -90px;
-    left: 0px;
-    bottom: 0px;
-}
-.position {
-    position: relative;
-    z-index: -1;
+    background-position: -10px -48px;   /*设置选图坐标*/
 }
 .pp {
     display: inline-flex;               /*设置display属性为inline-flex排列*/
     align-items: center;                /*行列项目中垂直居中排列*/
-    padding-left: 50px;
+    padding-left: 26px;                 /*设定左内边距为25px*/
 }
 .t {
-    font-size: 20px;
+    font-size: 12px;                    /*设置文字大小*/
+    padding-right: 70px;                /*设定左内边距为40px*/
+    height: 16px;                       /*设置高为16px*/
 }
 .t2 {
-    font-size: 30px;
-    color: red;
-    padding-left: 200px;
-
+    font-size: 16px;                    /*设定文字大小为16px*/
+    color: red;                         /*设置文字大小为红色*/
 }
-
+span2 {
+    width: 40px;                        /*设置选取图宽度*/
+    height: 20px;                       /*设置选取图高度*/
+    background-image: url(列表页.png);  /*设置雪碧图*/
+    background-repeat: no-repeat;       /*设定图片不重复*/
+    background-size: 400px;             /*设定雪碧图X轴为400px 等比例缩小*/
+}
+.icon3 {
+    background-position: -360px -24px;  /*设定选图坐标*/
+}
+.text {
+    overflow: hidden;                   /*设置滚动方式*/
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
 
 
 
