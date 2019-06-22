@@ -65,7 +65,6 @@ p.h {
     flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
 }
 p1 {
-    height: 60px;                       /*设置单个列表高度为80px*/
     width: 100%;                        /*设置列表宽度为屏幕宽度的100%*/
     border-bottom: 1px solid silver;     /*每一行列表下边框宽度1px 实体线 颜色*/
     padding: 20px 0 20px 0;              /*设置上下内边距*/
@@ -86,20 +85,28 @@ span1 {
     background-position: -10px -48px;   /*设置选图坐标*/
 }
 .pp {
-    display: inline-flex;               /*设置display属性为inline-flex排列*/
+    width: 100%;
+    display: inline-block;               /*设置display属性为inline-flex排列*/
     align-items: center;                /*行列项目中垂直居中排列*/
     padding-left: 26px;                 /*设定左内边距为25px*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .t {
     font-size: 12px;                    /*设置文字大小*/
-    padding-right: 70px;                /*设定左内边距为40px*/
+    padding-right: 60px;                /*设定左内边距为40px*/
     height: 16px;                       /*设置高为16px*/
 }
 .t2 {
     font-size: 16px;                    /*设定文字大小为16px*/
     color: red;                         /*设置文字大小为红色*/
+    background-image: url(矢量智能对象.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
 }
-span2 {
+ span2 {
     width: 40px;                        /*设置选取图宽度*/
     height: 20px;                       /*设置选取图高度*/
     background-image: url(列表页.png);  /*设置雪碧图*/
@@ -111,8 +118,8 @@ span2 {
 }
 .text {
     overflow: hidden;                   /*设置滚动方式*/
-    white-space:nowrap;
-    text-overflow: ellipsis;
+    white-space:nowrap;                 /*设定文字不换行*/
+    text-overflow: ellipsis;            /*设定文字超出时显示省略号*/
 }
 
 
