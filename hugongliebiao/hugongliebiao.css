@@ -67,7 +67,7 @@ p.h {
 p1 {
     width: 100%;                        /*设置列表宽度为屏幕宽度的100%*/
     border-bottom: 1px solid silver;     /*每一行列表下边框宽度1px 实体线 颜色*/
-    padding: 20px 0 20px 0;              /*设置上下内边距*/
+    padding: 20px 0 19px 0;              /*设置上下内边距*/
 }
 span1 {
     display: flex;                      /*设置为弹性布局*/
@@ -86,12 +86,13 @@ span1 {
 }
 .pp {
     width: 100%;
-    display: inline-block;               /*设置display属性为inline-flex排列*/
-    align-items: center;                /*行列项目中垂直居中排列*/
+    display: inline-block;              /*设置display属性为inline-flex排列*/
     padding-left: 26px;                 /*设定左内边距为25px*/
     overflow: hidden;
-    white-space: nowrap;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 21px;
+    font-size: 0;
 }
 .t {
     font-size: 12px;                    /*设置文字大小*/
@@ -117,9 +118,11 @@ span1 {
     background-position: -360px -24px;  /*设定选图坐标*/
 }
 .text {
+    display: block;                     /*设置为块级元素 */
     overflow: hidden;                   /*设置滚动方式*/
     white-space:nowrap;                 /*设定文字不换行*/
     text-overflow: ellipsis;            /*设定文字超出时显示省略号*/
+    vertical-align: middle;             /*设置垂直居中*/
 }
 
 
