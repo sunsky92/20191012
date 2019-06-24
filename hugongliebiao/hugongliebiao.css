@@ -131,8 +131,10 @@ span1 {
 .cursor {
     cursor: pointer;                    /*s设置光标样式手指变化*/
 }
-
-
+.center {
+    text-align: center;
+    text-align-last: center;
+}
 
 .wrap {
     width:140px;                        /*设置容器的宽度*/
