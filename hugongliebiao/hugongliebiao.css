@@ -13,6 +13,8 @@ footer.h {
     bottom: 0px;                         /*设置footer紧贴窗口下边*/
     background-color: rgb(248, 250, 251);/*设置footer颜色为*/
     height: 60px;                       /*设置footer的高度为60px*/
+    align-items: center;                /*行列项目中垂直居中排列*/
+    justify-content: space-around;
 }
 p.h {
     background-color: white;             /*设置列表头颜色为白色*/
@@ -48,7 +50,6 @@ p.h {
     background-size: 20px;              /*设置图片大小为40px*/
     font-size: 10px;                    /*设置字体大小为20px*/
     border:solid rgb(248, 250, 251);    /*设置边框为实体线消除阴影 并设置颜色与footer同色*/
-    flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
 }
 .h3 {
     margin: 0px;                        /*设置默认边距为0px*/
@@ -56,13 +57,11 @@ p.h {
     background: url("task5.jpg") no-repeat center top;
                                         /*插入背景图片 并设置水平居中 */
     background-size: 50px;              /*设置图片大小为74px*/
-    flex-grow: 1;                        /*设置显示放大比例来排列三个按钮*/
 }
 .h4 {
     background: url("man.png")   no-repeat center top;
                                         /*插入背景图片 并设置水平居中*/
     background-size: 20px;
-    flex-grow: 3;                       /*设置显示放大比例来排列三个按钮*/
 }
 p1 {
     width: 100%;                        /*设置列表宽度为屏幕宽度的100%*/
@@ -72,31 +71,38 @@ p1 {
 span1 {
     display: flex;                      /*设置为弹性布局*/
     flex-direction: column;             /*设置为flex布局 主轴从上往下垂直布局*/
-    width: 140px;                       /*设置选取宽度*/
+    width: 0px;                       /*设置选取宽度*/
     height: 20px;                       /*设置选取高度*/
     background-image: url(列表页.png);  /*选定雪碧图*/
     background-repeat: no-repeat;       /*设定图片不重复*/
     background-size: 400px;             /*设定X轴为400px等比例缩小*/
 }
 .icon1 {
-    background-position: -10px 0;       /*设置选图坐标*/
+    background-position: -10px 5px;       /*设置选图坐标*/
+    white-space: nowrap;
+    padding-left: 25px;
+    color: silver;
 }
 .icon2 {
-    background-position: -10px -48px;   /*设置选图坐标*/
+    background-position: -10px -50px;   /*设置选图坐标*/
+    white-space: nowrap;
+    padding-left: 25px;
+    color: silver;
 }
 .pp {
     width: 100%;
-    display: inline-block;              /*设置display属性为inline-flex排列*/
+    display: flex;                      /*设置display属性为flex排列*/
+    justify-content: space-between;     /*设置两端对齐排列*/
     padding-left: 26px;                 /*设定左内边距为25px*/
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     line-height: 21px;
     font-size: 0;
+    padding-top: 4px;
 }
 .t {
-    font-size: 12px;                    /*设置文字大小*/
-    padding-right: 60px;                /*设定左内边距为40px*/
+    font-size: 14px;                    /*设置文字大小*/
     height: 16px;                       /*设置高为16px*/
 }
 .t2 {
@@ -104,8 +110,8 @@ span1 {
     color: red;                         /*设置文字大小为红色*/
     background-image: url(矢量智能对象.png);
     background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 30px;
+    background-position: 80px;          /*s设置背景图片起始位置为x轴上80px*/
+    padding-right: 70px;                /*设置右边内边距为70px*/
 }
  span2 {
     width: 40px;                        /*设置选取图宽度*/
@@ -114,9 +120,7 @@ span1 {
     background-repeat: no-repeat;       /*设定图片不重复*/
     background-size: 400px;             /*设定雪碧图X轴为400px 等比例缩小*/
 }
-.icon3 {
-    background-position: -360px -24px;  /*设定选图坐标*/
-}
+
 .text {
     display: block;                     /*设置为块级元素 */
     overflow: hidden;                   /*设置滚动方式*/
@@ -124,7 +128,9 @@ span1 {
     text-overflow: ellipsis;            /*设定文字超出时显示省略号*/
     vertical-align: middle;             /*设置垂直居中*/
 }
-
+.cursor {
+    cursor: pointer;                    /*s设置光标样式手指变化*/
+}
 
 
 
@@ -146,6 +152,7 @@ label {
     height:40px;                        /*设置滑动框高度*/
     border-radius:5px;                  /*为滑动框添加圆角边框 半径5px*/
     transition:0.3s;                     /*设置滑块过渡效果为3s*/
+    cursor: pointer;                    /*s设置光标样式手指变化*/
 }
 label .move {
     display:block;                      /*设置此元素为块级元素 带有前后换行符*/
