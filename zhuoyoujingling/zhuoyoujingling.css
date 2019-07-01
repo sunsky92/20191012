@@ -59,14 +59,14 @@ body {
     border: 0px;
     cursor: pointer;                    /*s设置光标样式手指变化*/
 }
-.div1 {
+.dl1 {
     display: flex;
     flex-direction: column;                     /*设置主轴方向从上到下*/
     align-items: center;
     padding: 20px 30px 0px 30px;
 
 }
-.div2 {
+.dt {
     width: 100%;
     text-align: center;
     line-height: 40px;
@@ -80,28 +80,47 @@ body {
     border: 0px;
     cursor: pointer;                    /*s设置光标样式手指变化*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.有1133个用户正在玩此款游戏 {
-    font-size: 26px;
-    font-family: "HiraginoSansGB";
-    color: rgb(120, 120, 120);
-    line-height: 0.129;
-    -moz-transform: matrix( 0.94300125192604,0,0,0.94353143576287,0,0);
-    -webkit-transform: matrix( 0.94300125192604,0,0,0.94353143576287,0,0);
-    -ms-transform: matrix( 0.94300125192604,0,0,0.94353143576287,0,0);
-    position: absolute;
-    left: 145.198px;
-    top: 595.008px;
-    z-index: 30;
+.div1 {
+    height: 306px;
+    overflow: hidden;
 }
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a[type="radio"] {
+    /*display: none;*/
+}
+a[type="radio"] + label {
+    position: relative;
+}
+a[type="radio"] + label:before {
+    content: ;
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+    border: 1px solid silver;
+    border-radius: 50%;
+    display: block;
+}
+a[type="radio"]:checked + label:before {
+    content: ;
+    width: 5px;
+    height: 5px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: block;
+}
+
+
+.a {
+    display: block;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border: 1px silver solid  ;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
