@@ -64,7 +64,7 @@ body {
     flex-direction: column;                     /*设置主轴方向从上到下*/
     align-items: center;
     padding: 20px 30px 0px 30px;
-
+    margin: 0px;
 }
 .dt {
     width: 100%;
@@ -81,46 +81,31 @@ body {
     cursor: pointer;                    /*s设置光标样式手指变化*/
 }
 .div1 {
-    height: 306px;
+    height: 302px;
     overflow: hidden;
+    /*scroll-behavior: smooth;            !*选项卡平滑移动*!*/
 }
 .div2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-a[type="radio"] {
-    /*display: none;*/
-}
-a[type="radio"] + label {
-    position: relative;
-}
-a[type="radio"] + label:before {
-    content: ;
-    width: 5px;
-    height: 5px;
-    background-color: transparent;
-    border: 1px solid silver;
-    border-radius: 50%;
-    display: block;
-}
-a[type="radio"]:checked + label:before {
-    content: ;
-    width: 5px;
-    height: 5px;
-    background-color: aqua;
-    border-radius: 50%;
-    display: block;
-}
-
 
 .a {
     display: block;
-    background-color: white;
+    background-color: transparent;
     width: 10px;
     height: 10px;
     border: 1px silver solid  ;
     border-radius: 50%;
     margin-left: 5px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
 }
+.aa {
+    background-color: rgb(105, 209, 233);
+}
+
 
