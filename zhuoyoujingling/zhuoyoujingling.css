@@ -1,6 +1,10 @@
 body {
     margin: 0px;
     background-color: rgb(240 240 240);
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
 }
 
 .header {
@@ -48,20 +52,25 @@ body {
     font-size: 26px;
 }
 .triangle {
-    display: flex;
-    width: 0px;
-    height: 0px;
-    padding: 0px;
-    background-color: transparent;
+    position: absolute;
+    top: 105px;
+    right: 10px;
     border-top: 20px solid transparent;
-    border-right: 0px ;
     border-bottom: 20px solid transparent ;
     border-left: 20px solid rgb(251, 180, 53);
-    cursor: pointer;                    /*s设置光标样式手指变化*/
-    flex-shrink: 0;
 }
+.triangle0 {
+    position: absolute;
+    top: 105px;
+    left: 10px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent ;
+    border-right: 20px solid rgb(251, 180, 53);
+}
+
 .dl1 {
     display: flex;
+    position: relative;
     width: 100%;
     flex-direction: row;                     /*设置主轴方向从上到下*/
     align-items: center;
@@ -73,7 +82,7 @@ body {
     margin: 0px;
 }
 .dt {
-    width: 98%;
+    width: 80%;
     text-align: center;
     line-height: 40px;
     color: rgb(120, 120, 120);
@@ -107,10 +116,6 @@ body {
     border: 1px silver solid  ;
     border-radius: 50%;
     margin-left: 5px;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -webkit-user-select: none;
-    -moz-user-focus: none;
-    -moz-user-select: none;
 }
 .aa {
     background-color: rgb(105, 209, 233);
