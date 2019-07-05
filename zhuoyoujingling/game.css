@@ -1,0 +1,63 @@
+.header1 {
+    position: absolute;
+    background-image: url("header2.png");
+    background-size: 30px;
+    height: 70px;                           /*s设置header高度为70px*/
+    text-align: center;                     /*设置文字水平居中*/
+    line-height: 70px;                      /*设置line-height为70px 同header同样高度 文字垂直居中*/
+    color: white;                           /*设置文字颜色为白色*/
+    font-size: 20px                          /*设置文字大小为20px*/
+}
+
+.x {
+    position: absolute;                     /*相对父元素绝对定位*/
+    top: 20px;
+    right: 20px;
+    cursor: pointer;                    /*s设置光标样式手指变化*/
+}
+.x::before,
+.x::after {                                                 /*前后插入两个样式*/
+    content: "";
+    position: absolute;                                     /*设置绝对定位*/
+    height: 30px;                                           /*高设置30px*/
+    width: 2px;                                           /*宽设置1.5px*/
+    background: white;                                      /*设置颜色为白色*/
+}
+.x::before {
+    transform: rotate(45deg);                               /*进行顺时针45度旋转*/
+}
+.x::after {
+    transform: rotate(-45deg);                              /*进行逆时针45度旋转*/
+}
+
+.div3 {
+    display: flex;
+    position: relative;
+    top: 70px;
+    height: 70px;
+    background-color:  rgb(185,233,245);
+}
+
+.o {
+    display: block;
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffb50c;
+    border-radius: 50%;
+}
+.o:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+}
+
+
+
+
+}
