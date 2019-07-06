@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    background-color: rgb(41,189,224);
+}
+
+
 .header1 {
     position: absolute;
     background-image: url("header2.png");
@@ -10,6 +16,9 @@
 }
 
 .x {
+    display: block;
+    height: 30px;
+    width: 30px;
     position: absolute;                     /*相对父元素绝对定位*/
     top: 20px;
     right: 20px;
@@ -31,13 +40,12 @@
 }
 
 .div3 {
-    display: flex;
+    display: block;
     position: relative;
     top: 70px;
     height: 70px;
     background-color:  rgb(185,233,245);
 }
-
 .o {
     display: block;
     position: absolute;
@@ -47,7 +55,7 @@
     background-color: #ffb50c;
     border-radius: 50%;
 }
-.o:after {
+.o::after {
     content: "";
     position: absolute;
     top: 10px;
@@ -55,9 +63,58 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 15px solid white;
+
+}
+audio{
+    position: absolute;
+    opacity: 0;
+    right: 5px;
+    top: 10px;
+    transform: rotate(-180deg);
+    width: 100px;
+    cursor: pointer;                    /*s设置光标样式手指变化*/
 }
 
+audio::-webkit-media-controls-panel {
+    background: transparent;                                /*设置播放面板颜色*/
+}
+audio::-webkit-media-controls-mute-button {
+    display: none;                                      /*设置取消静音按钮*/
+}
+audio::-webkit-media-controls-play-button {
+                                                  /*设置播放暂停按钮区域的样式*/
+}
+audio::-webkit-media-controls-timeline-container {
+    display: none;                                      /*时间控制滑块*/
+}
+audio::-webkit-media-controls-current-time-display {
+    display: none;                                      /*设置省略号按钮隐藏*/
+}
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;                                      /*设置时间显示隐藏*/
+}
+audio::-webkit-media-controls-timeline {
+    display: none;                                      /*设置进度条隐藏*/
+}
+audio::-webkit-media-controls-volume-slider-container {
+    display: none;                                      /*体积控制边框*/
+}
+audio::-webkit-media-controls-volume-slider {
+    display: none;                                      /*边框线*/
+}
 
+.div4 {
+    background-color: rgb(41,189,224);
+    padding: 10px 0px 0px 50px;
+    color: white;
+    white-space: nowrap;
+}
 
-
+.triangle3 {
+    content: "";
+    position: absolute;
+    top: -5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid rgb(185,233,245);
 }
