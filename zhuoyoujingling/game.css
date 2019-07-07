@@ -1,7 +1,7 @@
 body {
-    margin: 0px;
-    background-color: rgb(41,189,224);
-}
+     margin: 0px;
+     background-color: rgb(41,189,224);
+ }
 
 
 .header1 {
@@ -82,7 +82,7 @@ audio::-webkit-media-controls-mute-button {
     display: none;                                      /*设置取消静音按钮*/
 }
 audio::-webkit-media-controls-play-button {
-                                                  /*设置播放暂停按钮区域的样式*/
+    /*设置播放暂停按钮区域的样式*/
 }
 audio::-webkit-media-controls-timeline-container {
     display: none;                                      /*时间控制滑块*/
@@ -117,4 +117,53 @@ audio::-webkit-media-controls-volume-slider {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 15px solid rgb(185,233,245);
+}
+
+.div5 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 180px;
+
+}
+.a1 {
+    position: relative;
+    width: 19vw;
+    height: 19vw;
+    text-align: center;
+    line-height: 19vw;
+    background-color: rgb(243,200,149);
+    margin: 5.6vw;
+    border: 1vw solid rgb(254,255,254);
+}
+.p1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4vw;
+    line-height: 4vw;
+    bottom: 0px;
+    background-color: rgb(130,175,155);
+    color: white;
+    font-size: 1vw;
+}
+span {
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-image: url("组4.png");
+    background-repeat: no-repeat;
+
+}
+p:hover .hover {
+    display: block;
+    position: absolute;
+    bottom: -6vw;
+    left: -1vw;
+    width: 21vw;
+    height: 4vw;
+    background-color: white;
+    background-position: 0px 0px;
 }
