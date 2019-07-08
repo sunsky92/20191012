@@ -50,6 +50,7 @@ body {
     display: block;
     position: absolute;
     right: 10px;
+    top: 10px;
     width: 40px;
     height: 40px;
     background-color: #ffb50c;
@@ -135,7 +136,7 @@ audio::-webkit-media-controls-volume-slider {
     text-align: center;
     line-height: 19vw;
     background-color: rgb(243,200,149);
-    margin: 5.6vw;
+    margin: 5vw;
     border: 1vw solid rgb(254,255,254);
 }
 .p1 {
@@ -155,15 +156,80 @@ span {
     height: 25px;
     background-image: url("组4.png");
     background-repeat: no-repeat;
+    background-size: 16vw;                         /*定义雪碧图X轴长度 使其生效*/
 
 }
-p:hover .hover {
+p:hover .hover1 {
+     display: block;
+     position: absolute;
+     bottom: -6vw;
+     left: -1vw;
+     width: 4vw;
+     height: 4vw;
+     background-image: url("组4.png");
+     background-repeat: no-repeat;
+     background-color: white;
+     background-position: 0px 2px;
+     background-size: 16vw;
+ }
+p:hover .hover2 {
     display: block;
     position: absolute;
     bottom: -6vw;
-    left: -1vw;
-    width: 21vw;
+    left: 4.66vw;
+    width: 4vw;
     height: 4vw;
+    background-image: url("组4.png");
+    background-repeat: no-repeat;
     background-color: white;
-    background-position: 0px 0px;
+    background-position: -35px 2px;
+    background-size: 16vw;
+}
+p:hover .hover3 {
+    display: block;
+    position: absolute;
+    bottom: -6vw;
+    left: 10.33vw;
+    width: 4vw;
+    height: 4vw;
+    background-image: url("组4.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 0px 2px;
+    background-size: 16vw;
+
+}
+p:hover .hover4 {
+    display: block;
+    position: absolute;
+    bottom: -6vw;
+    left: 16vw;
+    width: 4vw;
+    height: 4vw;
+    background-image: url("组4.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 0px 2px;
+    background-size: 16vw;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(41,189,224);
+}
+.bt {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 70vw;
+    top: 10px;
+    margin-left: 15vw;
+    background-color: rgb(248,180,69);
+    text-align: center;
+    line-height: 50px;
+    color: white;
 }
