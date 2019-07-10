@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(41, 189, 224);
+    background-image: url("矩形5拷贝 2.png"),url("33.png");
+    background-position: 10px ,right;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.p1 {
+    display: table-cell;
+    position: relative;
+    top: 50px;
+    width: 100vw;
+    height: 140px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(41, 189, 224);
+    background-image: url("图层1.png") ,url("图层2.png");
+    background-repeat: no-repeat;
+    background-position: center,bottom;
+    background-size: 60px,200px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.p2 {
+    display: block;
+    position: relative;
+    top: 32px;
+    color: rgb(255,200,101);
+    background-color: rgb(41, 189, 224);
+    padding: 20px 40px 20px 40px;
+}
