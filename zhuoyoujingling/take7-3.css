@@ -153,15 +153,18 @@ a.pb {
 }
 .dl3 {
     display: block;
-    position: absolute;
-    line-height: 70px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
     color: rgb(189,190,191);
 }
 .dl4 {
     display: block;
-    position: absolute;
-    overflow: hidden;
+    position: relative;
     bottom: 0px;
-    left: 20px;
+    left: 0px;
     color: rgb(189,190,191);
+    margin: 0px 0px 0px 0px;
+}
+a {
+    text-decoration: none;
 }

@@ -23,11 +23,14 @@ body {
     margin: 70px 20px 20px 20px;
 }
 .input {
+    display: flex;
     border: 1px solid rgb(201, 201, 201);
     height: 70px;
     width: 100%;
     background-color: white;
     color: rgb(154, 154, 154);                            /*设置文字颜色*/
+    line-height: 70px;                                    /*设置文字垂直居中*/
+    justify-content: center;                              /*设置flex项目水平居中 使文字居中显示*/
     font-size: 20px;
     background-image: url("back-Icon.png");
     background-size: 20px;
@@ -54,7 +57,7 @@ body {
 .triangle {
     position: absolute;
     top: 105px;
-    right: 10px;
+    right: 0px;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent ;
     border-left: 20px solid rgb(251, 180, 53);
@@ -62,7 +65,7 @@ body {
 .triangle0 {
     position: absolute;
     top: 105px;
-    left: 10px;
+    left: 0px;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent ;
     border-right: 20px solid rgb(251, 180, 53);
@@ -86,6 +89,7 @@ body {
     text-align: center;
     line-height: 40px;
     color: rgb(120, 120, 120);
+    font-size: 12px;
 }
 .input1 {
     display: inline-block;
@@ -95,6 +99,8 @@ body {
     color: white;
     border: 0px;
     cursor: pointer;                    /*s设置光标样式手指变化*/
+    font-size: 18px;
+    line-height: 50px;
 }
 .div1 {
     display: flex;
@@ -120,4 +126,8 @@ body {
 }
 .aa {
     background-color: rgb(105, 209, 233);
+}
+
+a {
+    text-decoration: none;
 }

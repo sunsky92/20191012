@@ -234,3 +234,6 @@ p:hover .hover4 {
 .header3 {
     ;
 }
+a {
+    text-decoration: none;
+}
