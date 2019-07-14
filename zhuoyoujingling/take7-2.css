@@ -5,7 +5,8 @@ body {
 
 
 .header1 {
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     background-image: url("header2.png");
     background-size: 30px;
     height: 70px;                           /*s设置header高度为70px*/
@@ -127,7 +128,7 @@ audio::-webkit-media-controls-volume-slider {
     justify-content: space-around;
     position: absolute;
     top: 180px;
-
+    margin-bottom: 70px;
 }
 .a1 {
     position: relative;
