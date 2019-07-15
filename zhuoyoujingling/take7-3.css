@@ -121,13 +121,12 @@ a.pb {
 }
 
 .div0 {
-    position: fixed;
     z-index: 10;
 }
 .div {
     display: flex;
     position: absolute;
-    margin: 380px 0px 70px 0px;
+    margin: 0px 0px 70px 0px;
     flex-direction: column;
     width: 100%;
     overflow: hidden;
@@ -136,7 +135,6 @@ a.pb {
 .dt {
     display: block;
     position: relative;
-    height: 90px;
     padding: 10px 20px 10px 20px;
     border-bottom: 1px solid rgb(225,226,227);
 }
@@ -173,4 +171,8 @@ a.pb {
 }
 a {
     text-decoration: none;
+}
+.div00 {
+    display: block;
+    width: 100%;
 }
