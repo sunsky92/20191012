@@ -12,27 +12,62 @@
     <link rel="stylesheet" href="take8-1.css">
 </head>
 
-<body>
-<div class="container">
-    <div class="column">
-        <div class="col-lg-3 col-md-3
-                    col-sm-4 col-xs-6 text-success">客服热线：010-594-78634</div>
-        <div class="col-lg-2 col-lg-offset-7
+<body class="container">
+<div class="column header0">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 text-success">
+        客服热线：010-594-78634
+    </div>
+    <div class="col-lg-2 col-lg-offset-7
                     col-md-2 col-md-offset-7
                     col-sm-2 col-sm-offset-6
-                    col-xs-6
-                    div1">
-                <div class="img1"></div>
-                <div class="img1 img2"></div>
-                <div class="img1 img3"></div>
-            </div>
-        </div>
+                    col-xs-6 div1">
+        <div class="img1"></div>
+        <div class="img1 img2"></div>
+        <div class="img1 img3"></div>
     </div>
 </div>
-<header class="container">
 
+<header class="container-fluid header">
+    <div class="container text-right header1">
+    <div class="col-lg-1 col-lg-offset-8">首页</div>
+    <div class="col-lg-1">职业</div>
+    <div class="col-lg-1">推荐</div>
+    <div class="col-lg-1">关于</div>
+    </div>
 </header>
 
+<div id="slidershow" class="carousel slide div2" data-ride="carousel">
+    <!--        /*设置图片轮播的顺序*/-->
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#slidershow" data-slide-to="0"></li>
+        <li data-target="#slidershow" data-slide-to="1"></li>
+        <li data-target="#slidershow" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+<!--        /*设置轮播图片*/-->
+        <div class="item active">
+            <a href="##"><img src="image.png"></a>
+            <!--                /*设置轮播图的标题与文字内容*/-->
+            <div class="carousel-caption">
+                <h3>第一张</h3>
+                <p>试试水</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="##"><img src="image2.png"></a>
+        </div>
+        <div class="item">
+            <a href="##"><img src="image3.png"></a>
+        </div>
+    </div>
+    <!--        /*设置轮播图片控制器*/-->
+    <a class="left carousel-control" href="#slidershow" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#slidershow" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
 
 </body>
 </html>

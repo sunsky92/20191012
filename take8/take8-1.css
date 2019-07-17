@@ -4,6 +4,12 @@ body {
 a {
     text-decoration: none;
 }
+
+.header0 {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
 .img1 {
     display: block;
     height: 25px;
@@ -23,5 +29,26 @@ a {
 }
 .div1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 40px;
+    left: 0px;
+    background-color: rgb(29,177,118);
+}
+
+.header1 {
+    line-height: 50px;
+    color: white;
+}
+
+.div2 {
+    top: 50px;
 }
