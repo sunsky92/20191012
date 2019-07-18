@@ -36,11 +36,8 @@ a {
 
 .header {
     display: block;
-    position: fixed;
     height: 50px;
     width: 100%;
-    top: 40px;
-    left: 0px;
     background-color: rgb(29,177,118);
 }
 
@@ -49,6 +46,49 @@ a {
     color: white;
 }
 
-.div2 {
-    top: 50px;
+.four {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.img4 {
+    display: block;
+    height: 62px;
+    width: 62px;
+    background-image: url("spire.png");
+    background-position: 10px -30px;
+    margin: 0px auto;
+}
+.img5 {
+    background-position: -79px -30px;
+}
+.img6 {
+    background-position: -165px -30px;
+}
+.img7 {
+    height: 17px;
+    width: 17px;
+    background-position: -88px 2px;
+    left: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.font1-1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.font2-1 {
+    font: 16px ;
+    margin-top: 30px;
+    color: silver;
+    text-align: center;
+}
+.font2-2 {
+    margin-top: 10px;
+}
+.four0 {
+    padding-left: 30%;
+    padding-top: 30px;
 }

@@ -12,33 +12,39 @@
     <link rel="stylesheet" href="take8-1.css">
 </head>
 
-<body class="container">
-<div class="column header0">
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 text-success visible-md-block">
+<body>
+<div class="container">
+<div class="row header0 container
+            hidden-xs">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 text-success">
         客服热线：010-594-78634
     </div>
     <div class="col-lg-2 col-lg-offset-7
                     col-md-2 col-md-offset-7
                     col-sm-2 col-sm-offset-6
-                    col-xs-6 div1">
+                    div1">
         <div class="img1"></div>
         <div class="img1 img2"></div>
         <div class="img1 img3"></div>
     </div>
 </div>
 
-<header class="container-fluid header">
-    <div class="container text-right header1">
-    <div class="col-lg-1 col-lg-offset-8">首页</div>
-    <div class="col-lg-1">职业</div>
-    <div class="col-lg-1">推荐</div>
-    <div class="col-lg-1">关于</div>
+</div>
+<header class=" header container">
+    <div class="row text-right header1">
+    <div class="col-lg-1 col-sm-1 col-md-1
+                col-lg-offset-8 col-sm-offset-8 col-md-offset-8">首页</div>
+    <div class="col-1 col-sm-1 col-md-1">职业</div>
+    <div class="col-1 col-sm-1 col-md-1">推荐</div>
+    <div class="col-1 col-sm-1 col-md-1">关于</div>
     </div>
 </header>
 
-<div id="slidershow" class="carousel slide div2" data-ride="carousel">
+<div id="slidershow"
+     class="carousel slide"
+     data-ride="carousel">
     <!--        /*设置图片轮播的顺序*/-->
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators hidden-xs">
         <li class="active" data-target="#slidershow" data-slide-to="0"></li>
         <li data-target="#slidershow" data-slide-to="1"></li>
         <li data-target="#slidershow" data-slide-to="2"></li>
@@ -49,8 +55,8 @@
             <a href="##"><img src="image1.png"></a>
             <!--                /*设置轮播图的标题与文字内容*/-->
             <div class="carousel-caption">
-                <h3>第一张</h3>
-                <p>试试水</p>
+                <h3></h3>
+                <p></p>
             </div>
         </div>
         <div class="item">
@@ -67,6 +73,31 @@
     <a class="right carousel-control" href="#slidershow" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
+</div>
+<div class="container">
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 four">
+        <div class="img4"></div>
+        <div class="font1-1">高效</div>
+        <div class="font2-1">将五年到七年的成长时间缩短到一年到三年</div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 four">
+        <div class="img4 img5"></div>
+        <div class="font1-1">规范</div>
+        <div class="font2-1">标准的实战教程，不会走弯路。</div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 four">
+        <div class="img4 img6"></div>
+        <div class="font1-1">人脉</div>
+        <div class="font2-1">同班好友，同院学长，技术大师，入学就混入职脉圈。</div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 four four0">
+        <div class="img4 img7">12400</div>
+        <div class="font2-1 font2-2">累计在线学习人数</div>
+        <div class="img4 img7">12400</div>
+        <div class="font2-1 font2-2">学员已找到满意工作</div>
+    </div>
+    </div>
 </div>
 
 </body>
