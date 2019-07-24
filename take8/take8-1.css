@@ -125,24 +125,50 @@ a {
     margin: 40px auto 40px auto;
 }
 .i {
-    display: block;
-    height: 40px;
-    width: 40px;
+    display: inline-block;
+    height: 40px ;
+    width: 40px ;
     border: 1px solid whitesmoke;
     border-radius: 50%;
     box-shadow: 1px 1px #888888;
-    padding: 20px 20px;
-    margin-right: 40px;
+    margin-right: 20px;
     color: #2b542c;
+    line-height: 40px;
+    text-align: center;
+}
+.p1 {
+    margin-left: 0px;
 }
 .p0 {
-    display: flex;
-    height: 40px;
-}
-.pw::after {
     display: block;
+    height: 60px;
+}
+.pi::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
     position: absolute;
+    right: 16px;
+    top: 12px;
     background-image: url("spire.png");
-    background-position: 0px -105px;
-
+    background-position: -60px -115px;
+}
+.pi::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    background-image: url("spire.png");
+    background-position: 0px -102px;
+}
+@media screen and (max-width: 992px) {
+    .pi::after {
+        content: none;
+    }
+    .pi::before {
+        content: none;
+    }
 }
