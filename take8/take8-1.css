@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: rgb(250,250,250);
 }
 a {
     color: white !important;
@@ -171,4 +172,37 @@ a {
     .pi::before {
         content: none;
     }
+}
+
+.ol {
+    bottom: -40px;
+}
+.div5 {
+    display: flex;
+    justify-content: space-between;
+}
+.p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    border: 1px solid rgb(238,237,237);
+    padding: 20px 40px 20px 40px;
+}
+.carousel-indicators .active {
+    background-color: rgb(29,177,118);
+}
+.carousel-indicators li {
+    border: 1px solid rgb(232,231,232);
+}
+
+.h2 {
+    margin-top: 100px;
+}
+.color {
+    display: inline-block;
+    background-color: white;
+    width: 19%;
+    height: 50px;
 }
