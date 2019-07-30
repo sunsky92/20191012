@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5f4546d-f368-47ec-989e-ab214dadd489" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take8/take8-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/take8/take8-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take8/take8-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/take8/take8-1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +19,39 @@
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../jiugongge\exportToHTML" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="task" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/take8/take8-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+            <state relative-caret-position="73">
+              <caret line="423" selection-start-line="423" selection-end-line="457" selection-end-column="9" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#meta#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -44,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/take8/take8-1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="356" column="38" lean-forward="true" selection-start-line="356" selection-start-column="38" selection-end-line="356" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -90,22 +106,40 @@
         <option value="$PROJECT_DIR$/zhuoyoujingling/take7-2.html" />
         <option value="$PROJECT_DIR$/zhuoyoujingling/take7-3.html" />
         <option value="$PROJECT_DIR$/zhuoyoujingling/take7-3.css" />
-        <option value="$PROJECT_DIR$/take8/take8-1.html" />
         <option value="$PROJECT_DIR$/take8/take8-1.css" />
+        <option value="$PROJECT_DIR$/take8/take8-1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="664" />
-    <option name="y" value="3" />
-    <option name="width" value="1170" />
-    <option name="height" value="1015" />
+    <option name="x" value="1123" />
+    <option name="y" value="70" />
+    <option name="width" value="667" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="take8" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -123,6 +157,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,49 +303,19 @@
       <workItem from="1563896092980" duration="524000" />
       <workItem from="1563896826852" duration="2353000" />
       <workItem from="1563899363144" duration="3247000" />
-      <workItem from="1563975974609" duration="11080000" />
-    </task>
-    <task id="LOCAL-00032" summary="1">
-      <created>1560275471330</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1560275471330</updated>
-    </task>
-    <task id="LOCAL-00033" summary="1">
-      <created>1560276688687</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1560276688687</updated>
-    </task>
-    <task id="LOCAL-00034" summary="1">
-      <created>1560359198586</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1560359198587</updated>
-    </task>
-    <task id="LOCAL-00035" summary="1">
-      <created>1560527743488</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1560527743489</updated>
-    </task>
-    <task id="LOCAL-00036" summary="1">
-      <created>1560613987075</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1560613987075</updated>
-    </task>
-    <task id="LOCAL-00037" summary="1">
-      <created>1560701137050</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1560701137050</updated>
+      <workItem from="1563975974609" duration="11365000" />
+      <workItem from="1564051994300" duration="2049000" />
+      <workItem from="1564197522650" duration="917000" />
+      <workItem from="1564250547850" duration="50000" />
+      <workItem from="1564322419246" duration="7482000" />
+      <workItem from="1564330581506" duration="2884000" />
+      <workItem from="1564333500488" duration="519000" />
+      <workItem from="1564407420614" duration="599000" />
+      <workItem from="1564412802827" duration="619000" />
+      <workItem from="1564439227586" duration="2927000" />
+      <workItem from="1564442865566" duration="11000" />
+      <workItem from="1564487050718" duration="11042000" />
+      <workItem from="1564528099484" duration="518000" />
     </task>
     <task id="LOCAL-00038" summary="1">
       <created>1560789518887</created>
@@ -613,29 +618,79 @@
       <option name="project" value="LOCAL" />
       <updated>1563903699795</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="完成学习流程的部分&#10;明天晚上箭头样式">
+      <created>1563989459580</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1563989459581</updated>
+    </task>
+    <task id="LOCAL-00082" summary="使用bootstrap轮播图完成优秀学员部分">
+      <created>1564333959589</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1564333959593</updated>
+    </task>
+    <task id="LOCAL-00083" summary="定制化五等分bootstrap栅格系统">
+      <created>1564442749024</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1564442749025</updated>
+    </task>
+    <task id="LOCAL-00084" summary="定制化五等分bootstrap栅格系统">
+      <created>1564494305187</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1564494305188</updated>
+    </task>
+    <task id="LOCAL-00085" summary="定制化五等分bootstrap栅格系统">
+      <created>1564494543166</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1564494543166</updated>
+    </task>
+    <task id="LOCAL-00086" summary="定制化五等分bootstrap栅格系统">
+      <created>1564504517539</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1564504517539</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="579005000" />
+    <option name="totallyTimeSpent" value="608907000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="3" width="1170" height="1015" extended-state="0" />
-    <editor active="true" />
+    <frame x="1123" y="70" width="667" height="932" extended-state="0" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.24979185" />
+      <window_info id="Favorites" order="1" side_tool="true" weight="0.32972524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32983682" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32980973" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32853982" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32983682" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3272727" />
       <window_info anchor="bottom" id="运行" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="消息" order="12" weight="0.30653805" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.32035595" />
@@ -643,7 +698,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" weight="0.22963604" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.32258064" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +710,10 @@
     <MESSAGE value="九宫格1.2" />
     <MESSAGE value="2019.5.29" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="完成学习流程的部分&#10;明天晚上箭头样式" />
+    <MESSAGE value="使用bootstrap轮播图完成优秀学员部分" />
+    <MESSAGE value="定制化五等分bootstrap栅格系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="定制化五等分bootstrap栅格系统" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jiugongge.html" />
@@ -812,26 +870,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/take8/take8-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+        <state relative-caret-position="73">
+          <caret line="423" selection-start-line="423" selection-end-line="457" selection-end-column="9" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#meta#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/take8/take8-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+        <state relative-caret-position="182">
+          <caret line="356" column="38" lean-forward="true" selection-start-line="356" selection-start-column="38" selection-end-line="356" selection-end-column="38" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
