@@ -47,6 +47,22 @@ a {
 .div3 {
     float: right;
 }
+.background-tran {
+    background-color: transparent !important;
+}
+@media screen and (max-width: 765px){
+    .div3 {
+        float: none;
+        text-align: center;
+        border-top: none;
+    }
+}
+@media screen and (max-width: 765px){
+    .aa {
+        border-bottom: 1px solid rgb(231,231,231);
+    }
+}
+
 
 .header1 {
     line-height: 50px;
@@ -178,6 +194,7 @@ a {
     bottom: -40px;
 }
 .div5 {
+    margin: 0px;
     justify-content: space-between;
 }
 .p2 {
@@ -226,99 +243,79 @@ a {
 }
 
 .div6 {
+    margin: 0px 30px;
     background-color: white;
     border: 1px solid white;
 }
-.col-xs-1-5,
-    .col-sm-1-5,
-    .col-md-1-5,
-    .col-lg-1-5 {
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-}
-@media screen and (max-width: 992px) {
-    .div6 {
-        display: none;
-    }
-    .h2 {
-        display: none;
-    }
-    .div7 {
-        display: none;
+@media (min-width: 0px) {
+    .col-xs-5-1 {
+        width: 100%;
+        float: left;
     }
 }
-.col-xs-1-1,
-    .col-sm-1-1,
-    .col-md-1-1,
-    .col-lg-1-1 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-    .col-xs-1-1,
-        .col-sm-1-1,
-        .col-md-1-1,
-        .col-lg-1-1 {
+@media (min-width: 425px) {
+    .col-sm-5-1 {
         width: 20%;
         float: left;
-        }
+    }
 }
-.div6@media (min-width: 992px) {
-    .col-xs-1-1,
-        .col-sm-1-1,
-        .col-md-1-1,
-        .col-lg-1-1 {
-            width: 20%;
-            float: left;
-        }
-}
-.div6@media (min-width: 1200px) {
-    .col-xs-1-1,
-        .col-sm-1-1,
-        .col-md-1-1,
-        .col-lg-1-1 {
-            width: 20%;
-            float: left;
-        }
+@media (min-width: 992px) {
+    .col-md-5-1 .col-lg-5-1{
+        width: 20%;
+        float: left;
+    }
 }
 .img8 {
     background-image: url("alibaba.png");
     height: 160px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .img9 {
     background-image: url("jinshanyun.png");
     height: 160px;
-    background-position: 0px 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .img10 {
     background-image: url("huanxin.png");
     height: 160px;
-    background-position: 0px -10px;
-    background-size: 228px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .img11 {
     background-image: url("ronglian.png");
     height: 160px;
     background-repeat: no-repeat;
-    background-position: 0px;
+    background-size: 100%;
+    background-position: center;
 }
 .img12 {
     background-image: url("qiniu.png");
     height: 160px;
     background-repeat: no-repeat;
-    background-position: 0px;
+    background-size: 100%;
+    background-position: center;
 }
+.hv:hover {
+    box-shadow: 0 0 20px silver;
+}
+
 
 .footer0 {
     width: 100%;
     background-color: white;
     margin-top: 100px;
 }
-.div7 {
-
+@media screen and (max-width: 768px) {
+    .div7 {
+        display: none;
+    }
 }
+
 .col-xs-2-10,
 .col-sm-2-10,
 .col-md-2-10,
@@ -352,7 +349,7 @@ a {
         float: left;
     }
 }
-.div6@media (min-width: 992px) {
+@media (min-width: 992px) {
     .col-xs-2-1,
     .col-sm-2-1,
     .col-md-2-1,
@@ -361,7 +358,7 @@ a {
         float: left;
     }
 }
-.div6@media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .col-xs-2-1,
     .col-sm-2-1,
     .col-md-2-1,
