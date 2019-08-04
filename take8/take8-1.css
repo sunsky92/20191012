@@ -268,40 +268,34 @@ a {
 .img8 {
     background-image: url("alibaba.png");
     height: 160px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 }
 .img9 {
     background-image: url("jinshanyun.png");
     height: 160px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 }
 .img10 {
     background-image: url("huanxin.png");
     height: 160px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+
 }
 .img11 {
     background-image: url("ronglian.png");
     height: 160px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 }
 .img12 {
     background-image: url("qiniu.png");
     height: 160px;
+}
+.hv {
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
     background-position: center;
+    cursor: pointer;
 }
 .hv:hover {
     box-shadow: 0 0 20px silver;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -315,7 +309,6 @@ a {
         display: none;
     }
 }
-
 .col-xs-2-10,
 .col-sm-2-10,
 .col-md-2-10,
@@ -367,6 +360,15 @@ a {
         float: left;
     }
 }
+.footer0-p {
+    cursor: pointer;
+}
+.footer0-p:hover{
+    color: #1b6d85;
+}
+
+
+
 
 .footer {
     width: 100%;
@@ -404,10 +406,17 @@ a {
     justify-content: space-between;
     margin: 20px 0px 30px 0px;
     color: white;
+    padding-left: 40px;
 }
 .div9 {
     display: block;
     font-size: 15.4px;
+}
+.footer-p {
+    cursor: pointer;
+}
+.footer-p:hover {
+    color: #1b6d85;
 }
 
 .footer1 {
@@ -415,4 +424,8 @@ a {
     border: 2px solid rgb(38,193,132);
     text-align: center;
     color: white;
+    cursor: pointer;
+}
+.footer1:hover {
+    color: #1b6d85;
 }
