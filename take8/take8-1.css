@@ -57,10 +57,14 @@ a {
         border-top: none;
     }
 }
+.ab:hover {
+    border-bottom: 5px solid white;
+}
 @media screen and (max-width: 765px){
     .aa {
         border-bottom: 1px solid rgb(231,231,231);
     }
+
 }
 
 
