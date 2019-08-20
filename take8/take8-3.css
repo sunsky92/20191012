@@ -69,3 +69,6 @@
 .take8-3-div2:hover {
     opacity: 0.7;
 }
+.word-break {
+    word-break: break-all;
+}
