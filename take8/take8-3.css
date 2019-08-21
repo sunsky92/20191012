@@ -1,4 +1,6 @@
 .div3-1 {
+    margin: 0px 15px 20px 15px;
+    padding: 8px 0px;
     border-radius: 0px;
     border-top: 1px solid rgb(208,214,217);
     border-bottom: 1px solid rgb(237,241,242);
@@ -19,7 +21,7 @@
 
 .take8-3-div1 {
     box-shadow: 0 0 10px silver;
-    margin: 20px 0px 20px 0px;
+    margin: 0px;
 }
 .take8-3-img {
     background-image: url("take8-3.png");
@@ -64,10 +66,13 @@
     top: 0px;
     height: 100%;
     padding: 50px 50px 0px 50px;
-    margin: 20px 15px 0px 0px !important;
+    margin: 0px 15px 0px 0px !important;
 }
 .take8-3-div2:hover {
     opacity: 0.7;
+}
+.take8-3-div3 {
+    margin: 20px 0px;
 }
 .word-break {
     word-break: break-all;
