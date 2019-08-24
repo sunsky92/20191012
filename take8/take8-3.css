@@ -78,3 +78,19 @@
 .word-break {
     word-break: break-all;
 }
+
+.take8-3-div21:hover {
+    transform: rotate(360deg);
+}
+.take8-3-div22:hover {
+    transform: rotate(-360deg);
+}
+.take8-3-div23:hover {
+    transform: rotateY(360deg);
+}
+.take8-3-div24:hover {
+    transform: rotateX(360deg);
+}
+.take8-3-div25:hover {
+    transform: rotate3d(360,360,360,360deg);
+}
