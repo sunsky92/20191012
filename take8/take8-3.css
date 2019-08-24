@@ -1,7 +1,7 @@
 .div3-1 {
-    margin: 0px 15px 20px 15px;
-    padding: 8px 0px;
-    border-radius: 0px;
+    margin: 0 15px 20px 15px;
+    padding: 8px 0;
+    border-radius: 0;
     border-top: 1px solid rgb(208,214,217);
     border-bottom: 1px solid rgb(237,241,242);
 }
@@ -21,14 +21,14 @@
 
 .take8-3-div1 {
     box-shadow: 0 0 10px silver;
-    margin: 0px;
+    margin: 0;
 }
 .take8-3-img {
     background-image: url("take8-3.png");
     background-repeat: no-repeat;
     background-position: 15px;
     padding: 10px 10px 10px 180px;
-    margin: 10px 0px;
+    margin: 10px 0;
     font-size: 12px;
 }
 .take8-3-d1 {
@@ -40,10 +40,11 @@
 }
 .take8-3-d2 {
     border-right: none;
+    border-left: 1px solid rgb(237,241,242);
 }
 .take8-3-d3 {
-    height: 90px;
-    line-height: 90px;
+    height: 126px;
+    line-height: 126px;
     text-align: center;
 }
 .color-silver {
