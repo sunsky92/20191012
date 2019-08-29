@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 100vh;
 }
 
 .header-p1 {
@@ -48,4 +49,24 @@ nav {
     background-color: rgb(18,119,220);
     color: white;
     cursor: pointer;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 40px;
+    font-size: 14px;
+}
+.footer-a {
+    margin: 10px 0;
+    text-align: center;
+    cursor: alias;
+}
+.footer-div2 {
+    background-image: url(32213eeb65ba.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
