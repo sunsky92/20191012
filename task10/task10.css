@@ -3,15 +3,20 @@ body {
     height: 100vh;
 }
 
+.margin0 {
+    margin: 0;
+}
+
+.display-flex {
+    display: flex;
+}
 .header-p1 {
     color: white;
-    height: 40px;
-    line-height: 40px;
+    padding: 20px 0;
     font-size: 14px;
 }
 .background-blue {
     background-color: rgb(18,119,220);
-    height: 40px;
 }
 .text-center {
     text-align: center;
@@ -30,9 +35,7 @@ body {
 .background-silver {
     background-color: rgb(249,249,249);
 }
-nav {
-    height: 61px;
-}
+
 .right {
     float: right;
     display: flex;
