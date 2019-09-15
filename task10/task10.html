@@ -67,48 +67,71 @@
     <div class="row div4-div2">
         <p class="div4-p1 col-12">选择箱型</p>
         <div class="div4-div2-p">
-            <div class="input">
+            <div class="input ">
                 <input type="radio" name="a" id="对口箱">
                 <label for="对口箱"></label>
                 <span>对口箱</span>
             </div>
-            <div class="input">
+            <div class="input ">
                 <input type="radio" name="a" id="飞机盒">
                 <label for="飞机盒"></label>
                 <span>飞机盒</span>
             </div>
-            <div class="input">
+            <div class="input ">
                 <input type="radio" name="a" id="天地盖">
                 <label for="天地盖"></label>
                 <span>天地盖</span>
             </div>
-            <div class="dropdown">
-                <a class="dropdown-toggle" href="#" role="button" id="drop" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    查看详情</a>
-                <div class="dropdown-menu" aria-labelledby="drop">
-                    <a class="dropdown-item" href="#">对口箱</a>
-                    <a class="dropdown-item" href="#">飞机盒</a>
-                    <a class="dropdown-item" href="#">天地盖</a>
-                </div>
-            </div>
+            <select class="right right40 select col-12">
+                <option value="" style="display:none">查看详情</option>
+                <option value="对口箱">对口箱</option>
+                <option value="飞机盒">飞机盒</option>
+                <option value="天地盖">天地盖</option>
+            </select>
         </div>
         <p class="div4-p2 div4-p1 col-12">确定尺寸</p>
-        <div class="div4-div2-p"  style="display: block">
-            <div class="input input2">
-                <input type="radio" name="b" id="b1">
-                <label for="b1"></label>
-                <span>外径</span>
+        <div class="div4-div2-p ">
+            <div class="col-8 padding0">
+                <div class="input input2 ">
+                    <input type="radio" name="b" id="b1">
+                    <label for="b1"></label>
+                    <span>外径</span>
+                    <form class="margin-r40">
+                        长<input type="number" name="1"  class="number">mm
+                    </form>
+                    <form class="margin-r40">
+                        宽<input type="number" name="2" class="number">mm
+                    </form>
+                    <form class="margin-r40">
+                        高<input type="number" name="3" class="number">mm
+                    </form>
+                </div>
+                <div class="input ">
+                    <input type="radio" name="b" id="b2">
+                    <label for="b2"></label>
+                    <span>内径</span>
+                    <form class="margin-r40">
+                        长<input type="number" name="1"  class="number">mm
+                    </form>
+                    <form class="margin-r40">
+                        宽<input type="number" name="2" class="number">mm
+                    </form>
+                    <form class="margin-r40">
+                        高<input type="number" name="3" class="number">mm
+                    </form>
+                </div>
             </div>
-            <div class="input">
-                <input type="radio" name="b" id="b2">
-                <label for="b2"></label>
-                <span>内径</span>
-            </div>
+            <label class="col-4 margin0 display-flex align-items-center">
+                <select class="select right40">
+                    <option value="" style="display:none">查看详情</option>
+                    <option value="外径">外径</option>
+                    <option value="内径">内径</option>
+                </select>
+            </label>
         </div>
         <p class="div4-p3 div4-p1 col-12">选择材质</p>
-        <div class="div4-div2-p">
-            <div class="offset-xl-1 col-2">
+        <div class="div4-div2-p ">
+            <div class="col-2">
                 <input type="radio" name="c" id="c1">
                 <label for="c1" class="margin0"></label>
                 <span>双层A瓦优质</span>
