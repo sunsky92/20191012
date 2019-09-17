@@ -107,6 +107,7 @@ body {
     -moz-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid rgb(232,232,232);
+    position: relative;
 }
 .div4-p1 {
     margin: 16px;
@@ -144,9 +145,10 @@ body {
     width: 100%;
     background-color: rgb(251,252,255);
     padding: 30px 0;
+    margin: 0;
 }
 .input {
-    margin-right: 40px;
+    margin: 20px 0;
 }
 .input2 {
     margin-bottom: 40px;
@@ -156,7 +158,7 @@ input[type="radio"] {
     display: none;
 }
 input[type="radio"] + label {
-    margin: 0 20px;
+    margin: 0 20px 0 0;
     width: 22px;
     height: 22px;
     line-height: 22px;
@@ -188,8 +190,18 @@ input[type="radio"]:checked + label {
 }
 .margin-r40 {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 40px 0 40px;
 }
+.margin2 {
+    margin: 20px 0 0 0;
+}
+@media screen and (max-width: 768px){
+    .margin-m {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+
 
 .select {
     height: 25px;
@@ -198,8 +210,11 @@ input[type="radio"]:checked + label {
 .align-items-center {
     align-items: center;
 }
-
-
+.select2 {
+    float: right;
+    position: absolute;
+    right: 40px;
+}
 
 .footer {
     position: relative;
@@ -219,3 +234,7 @@ input[type="radio"]:checked + label {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+
+
+
