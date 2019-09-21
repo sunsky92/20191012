@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #eff0f4;
+}
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5fc0cd;
+  justify-content: space-between;
+}
+.header p {
+  margin: 15px 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+label {
+  display: flex;
+  position: fixed;
+  top: 50px;
+  flex-flow: column;
+  width: 100%;
+}
+label input {
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 70px;
+  border: none;
+}
+/*# sourceMappingURL=task11.css.map */
