@@ -18,7 +18,7 @@ body {
   }
 }
 
-label {
+.label {
   display: flex;
   position: fixed;
   top: 50px;
@@ -29,8 +29,27 @@ label {
     height: 50px;
     padding-left: 70px;
     border: none;
+    background-size: 20px !important;
   }
   .img1 {
-
+    background: url("iphone.png") no-repeat 10px white;
   }
+  .img2 {
+    background: url("locked.png") no-repeat 10px white;
+  }
+}
+.label::after,.label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgb(234,237,238);
+    height: 40px;
+    width: 2px;
+    left: 50px;
+}
+.label::after {
+  top: 17px;
+}
+.label::before {
+  top: 79px;
 }
