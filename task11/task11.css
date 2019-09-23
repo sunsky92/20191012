@@ -5,8 +5,8 @@ body {
 .header {
   display: flex;
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
   background-color: #5fc0cd;
   justify-content: space-between;
 }
@@ -19,9 +19,9 @@ body {
 .label {
   display: flex;
   position: fixed;
+  width: 100%;
   top: 50px;
   flex-flow: column;
-  width: 100%;
 }
 .label input {
   margin-top: 10px;
@@ -55,8 +55,8 @@ body {
 .label2 {
   display: flex;
   position: fixed;
-  top: 190px;
   width: 100%;
+  top: 190px;
 }
 .label2 input {
   width: 100%;
