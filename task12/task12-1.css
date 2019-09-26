@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+.color1 {
+  background-color: #5ec0ce;
+}
+.color2 {
+  background-color: rgb();
+}
+.inline-flex {
+  display: inline-flex;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.fixed {
+  position: fixed;
+}
+.pointer {
+  cursor: pointer;
+}
+.header {
+  display: inline-flex;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #5ec0ce;
+}
+.header div {
+  width: 140px;
+  height: 40px;
+  position: fixed;
+  left: 50%;
+  margin-left: -70px;
+}
+.header div input {
+  display: none;
+}
+.header div label {
+  display: block;
+  border: 1px solid #5fc0cd;
+  /*设置边框宽度为1px 实体线无阴影 颜色与header同色*/
+  background: #55a8b3;
+  /*设置右边滑动轨道内部背景颜色*/
+  height: 40px;
+  /*设置滑动框高度*/
+  border-radius: 5px;
+  /*为滑动框添加圆角边框 半径5px*/
+  transition: 0.3s;
+  /*设置滑块过渡效果为3s*/
+  cursor: pointer;
+  /*s设置光标样式手指变化*/
+}
+.header div label .move {
+  display: block;
+  /*设置此元素为块级元素 带有前后换行符*/
+  width: 70px;
+  /*设置宽度为50px*/
+  height: 40px;
+  /*设置高度为40px*/
+  border-radius: 5px;
+  /*设置圆角 半径5px*/
+  background: white;
+  /*设置滑块背景颜色*/
+  transition: 0.3s;
+  /*设置滑块过渡效果时长为0.3s*/
+}
+.header div label .text {
+  width: 140px;
+  position: fixed;
+  top: 16px;
+  display: inline-flex;
+}
+.header div label em {
+  text-align: center;
+  width: 100%;
+  font-style: normal;
+}
+.header div input:checked + label .move {
+  transform: translateX(70px);
+  /*设置滑块可以横向滑动（translateX）滑动距离为70px*/
+  box-shadow: none;
+  /*消除阴影*/
+}
+.header img {
+  position: fixed;
+  right: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=task12-1.css.map */
