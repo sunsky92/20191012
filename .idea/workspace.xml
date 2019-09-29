@@ -5,48 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f4546d-f368-47ec-989e-ab214dadd489" name="默认的" comment="初步完成页面3">
-      <change afterPath="$PROJECT_DIR$/task9/1280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/alibaba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/huanxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/jinshanyun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/js/bootstrap/3.3.6/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/qiniu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/qrcode_for_gh_32213eeb65ba_1280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/recc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/ronglian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/spire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/tak9-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take8-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take9-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take9-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take9-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take9-3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/take9-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task9/tudouwang.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task12/task12-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/task12/task12-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task12/task12-1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/task12/task12-1.css.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,82 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/tak9-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="209" column="29" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/take9-1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="411" column="25" selection-start-line="411" selection-start-column="25" selection-end-line="411" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/take9-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/take9-2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/take9-3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3796#3802#0" expanded="true" />
-                <element signature="e#3802#3808#0" expanded="true" />
-                <element signature="n#style#0;n#h#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task9/take9-3.css">
+        <entry file="file://$PROJECT_DIR$/task12/task12-1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task9/js/bootstrap/3.3.6/npm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="738">
+              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -202,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
-    <option name="y" value="17" />
+    <option name="x" value="447" />
+    <option name="y" value="24" />
     <option name="width" value="1137" />
     <option name="height" value="1013" />
   </component>
@@ -212,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,12 +111,13 @@
             <path>
               <item name="task" type="b2602c69:ProjectViewProjectNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="task12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -778,7 +667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="17" width="1137" height="1013" extended-state="0" />
+    <frame x="447" y="24" width="1137" height="1013" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24979185" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32972524" />
@@ -800,7 +689,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.1290622" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.12845674" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24979185" />
@@ -1400,70 +1289,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task9/take9-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="411" column="25" selection-start-line="411" selection-start-column="25" selection-end-line="411" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/js/bootstrap/3.3.6/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/take9-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/tak9-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="209" column="29" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/take9-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/take9-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3796#3802#0" expanded="true" />
-            <element signature="e#3802#3808#0" expanded="true" />
-            <element signature="n#style#0;n#h#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/take9-3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/task9/take9-1.css" />
+    <entry file="file://$PROJECT_DIR$/task9/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+    <entry file="file://$PROJECT_DIR$/task9/js/bootstrap/3.3.6/npm.js" />
+    <entry file="file://$PROJECT_DIR$/task9/take9-2.css" />
+    <entry file="file://$PROJECT_DIR$/task9/tak9-1.html" />
+    <entry file="file://$PROJECT_DIR$/task9/take9-2.html" />
+    <entry file="file://$PROJECT_DIR$/task9/take9-3.html" />
+    <entry file="file://$PROJECT_DIR$/task9/take9-3.css" />
   </component>
   <component name="masterDetails">
     <states>
