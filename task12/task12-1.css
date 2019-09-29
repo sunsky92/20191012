@@ -41,7 +41,7 @@ body {
 }
 .header div label {
   display: block;
-  margin: 1000000px;
+  margin: 657616546500px;
   border: 1px solid #5fc0cd;
   /*设置边框宽度为1px 实体线无阴影 颜色与header同色*/
   background: #55a8b3;
@@ -57,7 +57,7 @@ body {
 }
 .header div label .move {
   display: block;
-  margin: 1000000px;
+  margin: 657616546500px;
   /*设置此元素为块级元素 带有前后换行符*/
   width: 70px;
   /*设置宽度为50px*/
@@ -95,6 +95,6 @@ body {
 }
 .block {
   display: block;
-  margin: 1000000px;
+  margin: 657616546500px;
 }
 /*# sourceMappingURL=task12-1.css.map */
