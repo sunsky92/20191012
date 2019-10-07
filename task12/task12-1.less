@@ -22,6 +22,7 @@ body {
   position: fixed;
 }
 
+
 .height(@height) {
   height: @height;
 }
@@ -43,11 +44,12 @@ body {
 
 
 .header {
-  .inline-flex;
-  .fixed;
-  .width(100%);
-  .height(50px);
-  .color1;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(95, 192, 205);
+  display: inline-flex;
+  align-items: center;
   div {
     .width(140px);
     .height(40px);
@@ -55,42 +57,31 @@ body {
     .left(50%);
     margin-left: -70px;
     input {
-      .none;
+      display: none;
     }
     label {
       .block;
-      border:1px solid
-      rgb(95, 192, 205);                  /*设置边框宽度为1px 实体线无阴影 颜色与header同色*/
-      background: rgb(85, 168, 179);      /*设置右边滑动轨道内部背景颜色*/
-      .height(40px);                        /*设置滑动框高度*/
-      border-radius:5px;                  /*为滑动框添加圆角边框 半径5px*/
-      transition:0.3s;                     /*设置滑块过渡效果为3s*/
-      cursor: pointer;                    /*s设置光标样式手指变化*/
+      border: 1px solid rgb(95, 192, 205);
+      background: rgb(85, 168, 179);
+      height: 40px;
+      border-radius: 5px;
+      transition: 0.3s;
+      cursor: pointer;
       .move {
-        .block;                      /*设置此元素为块级元素 带有前后换行符*/
-        .width(70px);                         /*设置宽度为50px*/
-        .height(40px);                        /*设置高度为40px*/
-        border-radius:5px;                  /*设置圆角 半径5px*/
-        background:white;                   /*设置滑块背景颜色*/
-        transition: 0.3s;                   /*设置滑块过渡效果时长为0.3s*/
+        .block;
+        width: 70px;
+        height: 40px;
+        border-radius: 5px;
+        background: white;
+        transition: 0.3s;
       }
-      .text {
-        .width(140px);
-        .fixed;
+      .e {
+        width: 140px;
+        position: fixed;
         top: 16px;
-        .inline-flex
-      }
-      em {
-        text-align: center;
-        .width(100%);
-        font-style: normal;
+        display: inline-flex;
       }
     }
-    input:checked+label .move {
-      transform:translateX(70px);         /*设置滑块可以横向滑动（translateX）滑动距离为70px*/
-      box-shadow:none;                    /*消除阴影*/
-    }
-
   }
   img {
     .fixed;
