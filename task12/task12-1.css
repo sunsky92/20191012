@@ -25,6 +25,9 @@ body {
 .fixed {
   position: fixed;
 }
+.flex {
+  display: flex;
+}
 .pointer {
   cursor: pointer;
 }
@@ -42,9 +45,16 @@ body {
   position: fixed;
   left: 50%;
   margin-left: -70px;
+  top: 4px;
 }
 .header div input {
   display: none;
+}
+.header div input:checked + label .move {
+  transform: translateX(70px);
+  /*设置滑块可以横向滑动（translateX）滑动距离为70px*/
+  box-shadow: none;
+  /*消除阴影*/
 }
 .header div label {
   display: block;
@@ -66,7 +76,7 @@ body {
 .header div label .text {
   width: 140px;
   position: fixed;
-  top: 10px;
+  top: 14px;
   display: inline-flex;
 }
 .header div label .text em {
@@ -79,9 +89,9 @@ body {
   right: 10px;
   height: 20px;
   cursor: pointer;
-  top: 10px;
+  top: 14px;
 }
-.div1 {
+nav {
   background-color: white;
   top: 50px;
   margin: 0;
@@ -91,7 +101,7 @@ body {
   display: inline-flex;
   align-items: center;
 }
-.div1 select {
+nav select {
   text-align: center;
   text-align-last: center;
   cursor: pointer;
@@ -99,4 +109,12 @@ body {
   width: 33.3%;
   color: darkgrey;
   border: 1px solid silver;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px 50px 0px;
+  margin: 0px;
+  overflow-y: hidden;
+  z-index: -1;
 }

@@ -1,0 +1,33 @@
+.color1 {
+  background-color: #5ec0ce;
+}
+.color2 {
+  background-color: #55a8b3;
+}
+.white-b {
+  background-color: white;
+}
+.white {
+  color: white;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.fixed {
+  position: fixed;
+}
+.flex {
+  display: flex;
+}
+.pointer {
+  cursor: pointer;
+}
+.border-silver {
+  border: 1px solid silver;
+}
