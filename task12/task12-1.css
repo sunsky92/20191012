@@ -173,3 +173,6 @@ nav select {
   background-position: 80px;
   padding-right: 70px;
 }
+body {
+  margin: 0;
+}
