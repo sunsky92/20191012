@@ -11,7 +11,7 @@ body {
     .color1;
     .inline-flex;
     align-content: center;
-    div {
+    .div {
         .widht(140px);
         .height(40px);
         .fixed;
@@ -84,7 +84,7 @@ nav {
     }
 }
 
-div {
+.div1 {
     .flex;
     flex-direction: column;
     padding: 100px 0px 50px 0px;
@@ -95,5 +95,32 @@ div {
         .widht(100%);
         .border-silver;
         padding: 20px 0 19px 0;
+        .span {
+            .flex;
+            flex-direction: column;
+            .width(0px);
+            .height(20px);
+            background-image: url(列表页.png);
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+        .span1 {
+            background-position: -10px 5px;
+            white-space: nowrap;
+            padding-left: 25px;
+            color: silver;
+        }
+        pp {
+            .width(100%);
+            .flex;
+            justify-content: space-between;
+            padding-left: 26px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 21px;
+            font-size: 0;
+            padding-top: 4px;
+        }
     }
 }
