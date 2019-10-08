@@ -31,6 +31,9 @@ body {
 .pointer {
   cursor: pointer;
 }
+.border-silver {
+  border: 1px solid silver;
+}
 .header {
   position: fixed;
   width: 100%;
@@ -117,4 +120,9 @@ div {
   margin: 0px;
   overflow-y: hidden;
   z-index: -1;
+}
+div p {
+  width: 100%;
+  border: 1px solid silver;
+  padding: 20px 0 19px 0;
 }
