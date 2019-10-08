@@ -36,13 +36,14 @@ body {
 }
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   height: 50px;
   background-color: #5ec0ce;
   display: inline-flex;
   align-content: center;
 }
-.header div {
+.header .div {
   width: 140px;
   height: 40px;
   position: fixed;
@@ -50,16 +51,16 @@ body {
   margin-left: -70px;
   top: 4px;
 }
-.header div input {
+.header .div input {
   display: none;
 }
-.header div input:checked + label .move {
+.header .div input:checked + label .move {
   transform: translateX(70px);
   /*设置滑块可以横向滑动（translateX）滑动距离为70px*/
   box-shadow: none;
   /*消除阴影*/
 }
-.header div label {
+.header .div label {
   display: block;
   border: 1px solid #5ec0ce;
   background-color: #55a8b3;
@@ -68,7 +69,7 @@ body {
   transition: 0.3s;
   cursor: pointer;
 }
-.header div label .move {
+.header .div label .move {
   display: block;
   width: 70px;
   height: 40px;
@@ -76,13 +77,13 @@ body {
   background-color: white;
   transition: 0.3s;
 }
-.header div label .text {
+.header .div label .text {
   width: 140px;
   position: fixed;
   top: 14px;
   display: inline-flex;
 }
-.header div label .text em {
+.header .div label .text em {
   text-align: center;
   width: 100%;
   font-style: normal;
@@ -113,7 +114,7 @@ nav select {
   color: darkgrey;
   border: 1px solid silver;
 }
-div {
+.div1 {
   display: flex;
   flex-direction: column;
   padding: 100px 0px 50px 0px;
@@ -121,8 +122,54 @@ div {
   overflow-y: hidden;
   z-index: -1;
 }
-div p {
+.div1 p {
   width: 100%;
   border: 1px solid silver;
   padding: 20px 0 19px 0;
+}
+.div1 p span {
+  display: flex;
+  width: 0;
+  flex-direction: column;
+  height: 20px;
+  background-image: url(列表页.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.div1 p .span1 {
+  background-position: -10px 5px;
+  white-space: nowrap;
+  padding-left: 25px;
+  color: silver;
+}
+.div1 p .pp {
+  display: flex;
+  width: 0;
+  justify-content: space-between;
+  padding-left: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 21px;
+  font-size: 0;
+  padding-top: 4px;
+}
+.div1 p .pp .text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.div1 p .pp .t1 {
+  font-size: 14px;
+  height: 16px;
+}
+.div1 p .pp .t2 {
+  font-size: 16px;
+  color: red;
+  background-image: url(矢量智能对象.png);
+  background-repeat: no-repeat;
+  background-position: 80px;
+  padding-right: 70px;
 }

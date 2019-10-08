@@ -6,6 +6,7 @@ body {
 
 .header {
     .fixed;
+    top: 0;
     .widht(100%);
     .height(50px);
     .color1;
@@ -95,11 +96,11 @@ nav {
         .widht(100%);
         .border-silver;
         padding: 20px 0 19px 0;
-        .span {
+        span {
             .flex;
+            .widht(0);
             flex-direction: column;
-            .width(0px);
-            .height(20px);
+            height: 20px;
             background-image: url(列表页.png);
             background-repeat: no-repeat;
             background-size: 400px;
@@ -110,9 +111,9 @@ nav {
             padding-left: 25px;
             color: silver;
         }
-        pp {
-            .width(100%);
+        .pp {
             .flex;
+            .widht(0);
             justify-content: space-between;
             padding-left: 26px;
             overflow: hidden;
@@ -121,6 +122,25 @@ nav {
             line-height: 21px;
             font-size: 0;
             padding-top: 4px;
+            .text {
+                .block;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                vertical-align: middle;
+            }
+            .t1 {
+                font-size: 14px;
+                height: 16px;
+            }
+            .t2 {
+                font-size: 16px;
+                color: red;
+                background-image: url(矢量智能对象.png);
+                background-repeat: no-repeat;
+                background-position: 80px;
+                padding-right: 70px;
+            }
         }
     }
 }
