@@ -92,7 +92,7 @@ nav {
     margin: 0px;
     overflow-y: hidden;
     z-index: -1;
-    p {
+    .p {
         .widht(100%);
         .border-silver;
         padding: 20px 0 19px 0;
@@ -111,9 +111,9 @@ nav {
             padding-left: 25px;
             color: silver;
         }
-        .pp {
+        div {
             .flex;
-            .widht(0);
+            .widht(100%);
             justify-content: space-between;
             padding-left: 26px;
             overflow: hidden;
@@ -141,6 +141,12 @@ nav {
                 background-position: 80px;
                 padding-right: 70px;
             }
+        }
+        span {
+            background-position: -10px -50px;
+            white-space: nowrap;
+            padding-left: 25px;
+            color: silver;
         }
     }
 }

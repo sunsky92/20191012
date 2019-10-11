@@ -122,12 +122,12 @@ nav select {
   overflow-y: hidden;
   z-index: -1;
 }
-.div1 p {
+.div1 .p {
   width: 100%;
   border: 1px solid silver;
   padding: 20px 0 19px 0;
 }
-.div1 p span {
+.div1 .p span {
   display: flex;
   width: 0;
   flex-direction: column;
@@ -136,15 +136,15 @@ nav select {
   background-repeat: no-repeat;
   background-size: 400px;
 }
-.div1 p .span1 {
+.div1 .p .span1 {
   background-position: -10px 5px;
   white-space: nowrap;
   padding-left: 25px;
   color: silver;
 }
-.div1 p .pp {
+.div1 .p div {
   display: flex;
-  width: 0;
+  width: 100%;
   justify-content: space-between;
   padding-left: 26px;
   overflow: hidden;
@@ -154,24 +154,30 @@ nav select {
   font-size: 0;
   padding-top: 4px;
 }
-.div1 p .pp .text {
+.div1 .p div .text {
   display: block;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   vertical-align: middle;
 }
-.div1 p .pp .t1 {
+.div1 .p div .t1 {
   font-size: 14px;
   height: 16px;
 }
-.div1 p .pp .t2 {
+.div1 .p div .t2 {
   font-size: 16px;
   color: red;
   background-image: url(矢量智能对象.png);
   background-repeat: no-repeat;
   background-position: 80px;
   padding-right: 70px;
+}
+.div1 .p span {
+  background-position: -10px -50px;
+  white-space: nowrap;
+  padding-left: 25px;
+  color: silver;
 }
 body {
   margin: 0;
